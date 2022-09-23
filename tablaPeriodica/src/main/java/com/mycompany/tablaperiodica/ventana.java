@@ -17,7 +17,8 @@ public final class ventana extends javax.swing.JFrame implements ActionListener{
         transparenciaboton();
 
         this.setLocationRelativeTo(this);
-
+        jLabel37.setVisible(false);
+        Ele.setVisible(false);
         Gnobles.setVisible(false);
         halogenos.setVisible(false);
         metaloides.setVisible(false);
@@ -159,130 +160,128 @@ public final class ventana extends javax.swing.JFrame implements ActionListener{
         String name=o.getName();
         //e.getActionCommand().equals("New button1")
         switch (name) {
-            case "H"->this.enlace("Hidrogeno","1","1.0","2.1","/home/trabajo/Imágenes/1c1feffed7dc8a90a755642552b53990.gif");
-            case "li"->this.enlace("Litio","3","6,9","","");
-            case "na"->this.enlace("Sodio","11","23,0","","");
-            case "k"->this.enlace("Potasio","19","39,1","","");
-            case "rb"->this.enlace("Rubidio","37","85,5","","");
-            case "cs"->this.enlace("Cesio","55","132,9","","");
-            case "fr"->this.enlace("Francio","87","233","","");
-            case "be"->this.enlace("Berilio","","","","");
-            case "mg"->this.enlace("Magnesio","","","","");
-            case "ca"->this.enlace("Calcio","","","","");
-            case "sr"->this.enlace("Estroncio","","","","");
-            case "ba"->this.enlace("Bario","","","","");
-            case "ra"->this.enlace("Radio","","","","");
-            case "sc"->this.enlace("Escandio","","","","");
-            case "y"->this.enlace("Itrio","","","","");
-            case "lu"->this.enlace("Lutencio","","","","");
-            case "lr"->this.enlace("Laurencio","","","","");
-            case "ti"->this.enlace("Titanio","","","","");
-            case "zr"->this.enlace("Circonio","","","","");
-            case "hf"->this.enlace("Hafnio","","","","");
-            case "rf"->this.enlace("Rutherfordio","","","","");
-            case "v"->this.enlace("Vanadio","","","","");
-            case "nb"->this.enlace("Niobio","","","","");
-            case "ta"->this.enlace("Tantalo","","","","");
-            case "db"->this.enlace("Dubnio","","","","");
-            case "cr"->this.enlace("Cromo","","","","");
-            case "mo"->this.enlace("Moilibdeno","","","","");
-            case "w"->this.enlace("Volframio","","","","");
-            case "sg"->this.enlace("Seaborgio","","","","");
-            case "mn"->this.enlace("Manganeso","","","","");
-            case "tc"->this.enlace("Tecnecio","","","","");
-            case "re"->this.enlace("Renio","","","","");
-            case "bh"->this.enlace("Bohrio","","","","");
-            case "fe"->this.enlace("Hierro","","","","");
-            case "ru"->this.enlace("Rutenio","","","","");
-            case "os"->this.enlace("Osmio","","","","");
-            case "hs"->this.enlace("Hassio","","","","");
-            case "co"->this.enlace("Cobalto","","","","");
-            case "rh"->this.enlace("Rodio","","","","");
-            case "ir"->this.enlace("Iridio","","","","");
-            case "mt"->this.enlace("Meitnerio","","","","");
-            case "ni"->this.enlace("Niquel","","","","");
-            case "pd"->this.enlace("Paladio","","","","");
-            case "pt"->this.enlace("Platino","","","","");
-            case "ds"->this.enlace("Darmstatio","","","","");
-            case "cu"->this.enlace("Cobre","","","","");
-            case "ag"->this.enlace("Plata","","","","");
-            case "au"->this.enlace("Oro","","","","");
-            case "rg"->this.enlace("Roentgenio","","","","");
-            case "zn"->this.enlace("Cinc","","","","");
-            case "cd"->this.enlace("Cadmio","","","","");
-            case "hg"->this.enlace("Mercurio","","","","");
-            case "cn"->this.enlace("Copernicio","","","","");
-            case "b"->this.enlace("Boro","","","","");
-            case "al"->this.enlace("Aluminio","","","","");
-            case "ga"->this.enlace("Galio","","","","");
-            case "in"->this.enlace("Indio","","","","");
-            case "tl"->this.enlace("Talio","","","","");
-            case "nh"->this.enlace("Nihonio","","","","");
-            case "c"->this.enlace("Carbono","","","","");
-            case "si"->this.enlace("Silicio","","","","");
-            case "ge"->this.enlace("Germanio","","","","");
-            case "sn"->this.enlace("Estaño","","","","");
-            case "pb"->this.enlace("Plomo","","","","");
-            case "fl"->this.enlace("Flerovio","","","","");
-            case "n"->this.enlace("Nitrogenio","","","","");
-            case "p"->this.enlace("Fosforo","","","","");
-            case "as"->this.enlace("Arsénico","","","","");
-            case "sb"->this.enlace("Antimonio","","","","");
-            case "bi"->this.enlace("Bismuto","","","","");
-            case "mc"->this.enlace("Moscobio","","","","");
-            case "o"->this.enlace("Oxigeno","","","","");
-            case "s"->this.enlace("Asúfre","","","","");
-            case "se"->this.enlace("Selenio","","","","");
-            case "te"->this.enlace("Telurio","","","","");
-            case "po"->this.enlace("Polonio","","","","");
-            case "lv"->this.enlace("Livermonio","","","","");
-            case "f"->this.enlace("Flúor","","","","");
-            case "cl"->this.enlace("Cloro","","","","");
-            case "br"->this.enlace("Bromo","","","","");
-            case "i"->this.enlace("Yodo","","","","");
-            case "at"->this.enlace("Astato","","","","");
-            case "ts"->this.enlace("Teneso","","","","");
-            case "he"->this.enlace("Helio","","","","");
-            case "ne"->this.enlace("Neón","","","","");
-            case "ar"->this.enlace("Argón","","","","");
-            case "kr"->this.enlace("Kriptón","","","","");
-            case "xe"->this.enlace("Xenón","","","","");
-            case "rn"->this.enlace("Radon","","","","");
-            case "og"->this.enlace("Oganesón","","","","");
-            case "la"->this.enlace("Lantano","","","","");
-            case "ce"->this.enlace("Cerio","","","","");
-            case "pr"->this.enlace("Praseodimio","","","","");
-            case "nd"->this.enlace("Neodimio","","","","");
-            case "pm"->this.enlace("Prometio","","","","");
-            case "sm"->this.enlace("Samario","","","","");
-            case "eu"->this.enlace("Europio","","","","");
-            case "gd"->this.enlace("Gadolinio","","","","");
-            case "tb"->this.enlace("Terbio","","","","");
-            case "dy"->this.enlace("Disprosio","","","","");
-            case "ho"->this.enlace("Holmio","","","","");
-            case "er"->this.enlace("Erbio","","","","");
-            case "tm"->this.enlace("Tulio","","","","");
-            case "yb"->this.enlace("Iterbio","","","","");
-            case "ac"->this.enlace("Actinio","","","","");
-            case "th"->this.enlace("Torio","","","","");
-            case "pa"->this.enlace("Protactinio","","","","");
-            case "u"->this.enlace("Uranio","","","","");
-            case "np"->this.enlace("Neptunio","","","","");
-            case "pu"->this.enlace("Plutonio","","","","");
-            case "am"->this.enlace("Americio","","","","");
-            case "cm"->this.enlace("Curio","","","","");
-            case "bk"->this.enlace("Berquelio","","","","");
-            case "cf"->this.enlace("Californio","","","","");
-            case "es"->this.enlace("Einstenio","","","","");
-            case "fm"->this.enlace("Fermio","","","","");
-            case "md"->this.enlace("Mendelevio","","","","");
-            case "no"->this.enlace("Nobelio","","","","");
+            case "H"->this.enlace("Hidrogeno","1","1.0","gaseoso","","/home/trabajo/Imágenes/1c1feffed7dc8a90a755642552b53990.gif");
+            case "li"->this.enlace("Litio","3","6,9","liquido","","/home/trabajo/Imágenes/db9q9gh-4b04d3dc-c688-4b6f-9a8a-9deaec633439.gif");
+            case "na"->this.enlace("Sodio","11","23,0","liquido","","/home/trabajo/Imágenes/db9q9gh-4b04d3dc-c688-4b6f-9a8a-9deaec633439.gif");
+            case "k"->this.enlace("Potasio","19","39,1","liquido","","/home/trabajo/Imágenes/db9q9gh-4b04d3dc-c688-4b6f-9a8a-9deaec633439.gif");
+            case "rb"->this.enlace("Rubidio","37","85,5","liquido","","/home/trabajo/Imágenes/db9q9gh-4b04d3dc-c688-4b6f-9a8a-9deaec633439.gif");
+            case "cs"->this.enlace("Cesio","55","132,9","liquido","","/home/trabajo/Imágenes/db9q9gh-4b04d3dc-c688-4b6f-9a8a-9deaec633439.gif");
+            case "fr"->this.enlace("Francio","87","233","liquido","","/home/trabajo/Imágenes/db9q9gh-4b04d3dc-c688-4b6f-9a8a-9deaec633439.gif");
+            case "be"->this.enlace("Berilio","4","9,0","solido","","/home/trabajo/Imágenes/giphy (1).gif");
+            case "mg"->this.enlace("Magnesio","12","24,3","solido","","/home/trabajo/Imágenes/giphy (1).gif");
+            case "ca"->this.enlace("Calcio","20","40,1","solido","","/home/trabajo/Imágenes/giphy (1).gif");
+            case "sr"->this.enlace("Estroncio","38","87,6","solido","","/home/trabajo/Imágenes/giphy (1).gif");
+            case "ba"->this.enlace("Bario","56","137,6","solido","","/home/trabajo/Imágenes/giphy (1).gif");
+            case "ra"->this.enlace("Radio","88","266","solido","","/home/trabajo/Imágenes/giphy (1).gif");
+            case "sc"->this.enlace("Escandio","21","45,0'","solido","","/home/trabajo/Imágenes/giphy (1).gif");
+            case "y"->this.enlace("Itrio","39","88,9","solido","","/home/trabajo/Imágenes/giphy (1).gif");
+            case "lu"->this.enlace("Lutencio","71","175,0","solido","","/home/trabajo/Imágenes/giphy (1).gif");
+            case "lr"->this.enlace("Laurencio","103","262","solido","","/home/trabajo/Imágenes/giphy (1).gif");
+            case "ti"->this.enlace("Titanio","","","solido","","/home/trabajo/Imágenes/giphy (1).gif");
+            case "zr"->this.enlace("Circonio","","","solido","","/home/trabajo/Imágenes/giphy (1).gif");
+            case "hf"->this.enlace("Hafnio","","","solido","","/home/trabajo/Imágenes/giphy (1).gif");
+            case "rf"->this.enlace("Rutherfordio","","","desconocido","","/home/trabajo/Imágenes/loading-25.gif");
+            case "v"->this.enlace("Vanadio","","","solido","","/home/trabajo/Imágenes/giphy (1).gif");
+            case "nb"->this.enlace("Niobio","","","solido","","/home/trabajo/Imágenes/giphy (1).gif");
+            case "ta"->this.enlace("Tantalo","","","solido","","/home/trabajo/Imágenes/giphy (1).gif");
+            case "db"->this.enlace("Dubnio","","","desconocido","","/home/trabajo/Imágenes/loading-25.gif");
+            case "cr"->this.enlace("Cromo","","","solido","","/home/trabajo/Imágenes/giphy (1).gif");
+            case "mo"->this.enlace("Moilibdeno","","","solido","","/home/trabajo/Imágenes/giphy (1).gif");
+            case "w"->this.enlace("Volframio","","","solido","","/home/trabajo/Imágenes/giphy (1).gif");
+            case "sg"->this.enlace("Seaborgio","","","desconocido","","/home/trabajo/Imágenes/loading-25.gif");
+            case "mn"->this.enlace("Manganeso","","","solido","","/home/trabajo/Imágenes/giphy (1).gif");
+            case "tc"->this.enlace("Tecnecio","","","solido","","/home/trabajo/Imágenes/giphy (1).gif");
+            case "re"->this.enlace("Renio","","","solido","","/home/trabajo/Imágenes/giphy (1).gif");
+            case "bh"->this.enlace("Bohrio","","","desconocido","","/home/trabajo/Imágenes/loading-25.gif");
+            case "fe"->this.enlace("Hierro","","","solido","","/home/trabajo/Imágenes/giphy (1).gif");
+            case "ru"->this.enlace("Rutenio","","","solido","","/home/trabajo/Imágenes/giphy (1).gif");
+            case "os"->this.enlace("Osmio","","","solido","","/home/trabajo/Imágenes/giphy (1).gif");
+            case "hs"->this.enlace("Hassio","","","desconocido","","/home/trabajo/Imágenes/loading-25.gif");
+            case "co"->this.enlace("Cobalto","","","solido","","/home/trabajo/Imágenes/giphy (1).gif");
+            case "rh"->this.enlace("Rodio","","","solido","","/home/trabajo/Imágenes/giphy (1).gif");
+            case "ir"->this.enlace("Iridio","","","solido","","/home/trabajo/Imágenes/giphy (1).gif");
+            case "mt"->this.enlace("Meitnerio","","","desconocido","","/home/trabajo/Imágenes/loading-25.gif");
+            case "ni"->this.enlace("Niquel","","","solido","","/home/trabajo/Imágenes/giphy (1).gif");
+            case "pd"->this.enlace("Paladio","","","solido","","/home/trabajo/Imágenes/giphy (1).gif");
+            case "pt"->this.enlace("Platino","","","solido","","/home/trabajo/Imágenes/giphy (1).gif");
+            case "ds"->this.enlace("Darmstatio","","","desconocido","","/home/trabajo/Imágenes/loading-25.gif");
+            case "cu"->this.enlace("Cobre","","","solido","","/home/trabajo/Imágenes/giphy (1).gif");
+            case "ag"->this.enlace("Plata","","","solido","","/home/trabajo/Imágenes/giphy (1).gif");
+            case "au"->this.enlace("Oro","","","solido","","/home/trabajo/Imágenes/giphy (1).gif");
+            case "rg"->this.enlace("Roentgenio","","","desconocido","","/home/trabajo/Imágenes/loading-25.gif");
+            case "zn"->this.enlace("Cinc","","","solido","","/home/trabajo/Imágenes/giphy (1).gif");
+            case "cd"->this.enlace("Cadmio","","","liquido","","/home/trabajo/Imágenes/db9q9gh-4b04d3dc-c688-4b6f-9a8a-9deaec633439.gif");
+            case "hg"->this.enlace("Mercurio","","","gaseoso","","/home/trabajo/Imágenes/1c1feffed7dc8a90a755642552b53990.gif");
+            case "cn"->this.enlace("Copernicio","","","desconocido","","/home/trabajo/Imágenes/loading-25.gif");
+            case "b"->this.enlace("Boro","","","solido","","/home/trabajo/Imágenes/giphy (1).gif");
+            case "al"->this.enlace("Aluminio","","","solido","","/home/trabajo/Imágenes/giphy (1).gif");
+            case "ga"->this.enlace("Galio","","","liquido","","/home/trabajo/Imágenes/db9q9gh-4b04d3dc-c688-4b6f-9a8a-9deaec633439.gif");
+            case "in"->this.enlace("Indio","","","liquido","","/home/trabajo/Imágenes/db9q9gh-4b04d3dc-c688-4b6f-9a8a-9deaec633439.gif");
+            case "tl"->this.enlace("Talio","","","liquido","","/home/trabajo/Imágenes/db9q9gh-4b04d3dc-c688-4b6f-9a8a-9deaec633439.gif");
+            case "nh"->this.enlace("Nihonio","","","desconocido","","/home/trabajo/Imágenes/loading-25.gif");
+            case "c"->this.enlace("Carbono","","","solido","","/home/trabajo/Imágenes/giphy (1).gif");
+            case "si"->this.enlace("Silicio","","","solido","","/home/trabajo/Imágenes/giphy (1).gif");
+            case "ge"->this.enlace("Germanio","","","solido","","/home/trabajo/Imágenes/giphy (1).gif");
+            case "sn"->this.enlace("Estaño","","","liquido","","/home/trabajo/Imágenes/db9q9gh-4b04d3dc-c688-4b6f-9a8a-9deaec633439.gif");
+            case "pb"->this.enlace("Plomo","","","liquido","","/home/trabajo/Imágenes/db9q9gh-4b04d3dc-c688-4b6f-9a8a-9deaec633439.gif");
+            case "fl"->this.enlace("Flerovio","","","desconocido","","/home/trabajo/Imágenes/loading-25.gif");
+            case "n"->this.enlace("Nitrogenio","","","gaseoso","","/home/trabajo/Imágenes/1c1feffed7dc8a90a755642552b53990.gif");
+            case "p"->this.enlace("Fosforo","","","gaseoso","","/home/trabajo/Imágenes/1c1feffed7dc8a90a755642552b53990.gif");
+            case "as"->this.enlace("Arsénico","","","solido","","/home/trabajo/Imágenes/giphy (1).gif");
+            case "sb"->this.enlace("Antimonio","","","solido","","/home/trabajo/Imágenes/giphy (1).gif");
+            case "bi"->this.enlace("Bismuto","","","liquido","","/home/trabajo/Imágenes/db9q9gh-4b04d3dc-c688-4b6f-9a8a-9deaec633439.gif");
+            case "mc"->this.enlace("Moscobio","","","desconocido","","/home/trabajo/Imágenes/loading-25.gif");
+            case "o"->this.enlace("Oxigeno","","","gaseoso","","/home/trabajo/Imágenes/1c1feffed7dc8a90a755642552b53990.gif");
+            case "s"->this.enlace("Asúfre","","","liquido","","/home/trabajo/Imágenes/db9q9gh-4b04d3dc-c688-4b6f-9a8a-9deaec633439.gif");
+            case "se"->this.enlace("Selenio","","","liquido","","/home/trabajo/Imágenes/db9q9gh-4b04d3dc-c688-4b6f-9a8a-9deaec633439.gif");
+            case "te"->this.enlace("Telurio","","","solido","","/home/trabajo/Imágenes/giphy (1).gif");
+            case "po"->this.enlace("Polonio","","","liquido","","/home/trabajo/Imágenes/db9q9gh-4b04d3dc-c688-4b6f-9a8a-9deaec633439.gif");
+            case "lv"->this.enlace("Livermonio","","","desconocido","","/home/trabajo/Imágenes/loading-25.gif");
+            case "f"->this.enlace("Flúor","","","gaseoso","","/home/trabajo/Imágenes/1c1feffed7dc8a90a755642552b53990.gif");
+            case "cl"->this.enlace("Cloro","","","gaseoso","","/home/trabajo/Imágenes/1c1feffed7dc8a90a755642552b53990.gif");
+            case "br"->this.enlace("Bromo","","","gaseoso","","/home/trabajo/Imágenes/1c1feffed7dc8a90a755642552b53990.gif");
+            case "i"->this.enlace("Yodo","","","gaseoso","","/home/trabajo/Imágenes/1c1feffed7dc8a90a755642552b53990.gif");
+            case "at"->this.enlace("Astato","","","gaseoso","","/home/trabajo/Imágenes/1c1feffed7dc8a90a755642552b53990.gif");
+            case "ts"->this.enlace("Teneso","","","desconocido","","/home/trabajo/Imágenes/loading-25.gif");
+            case "he"->this.enlace("Helio","","","gaseoso","","/home/trabajo/Imágenes/1c1feffed7dc8a90a755642552b53990.gif");
+            case "ne"->this.enlace("Neón","","","gaseoso","","/home/trabajo/Imágenes/1c1feffed7dc8a90a755642552b53990.gif");
+            case "ar"->this.enlace("Argón","","","gaseoso","","/home/trabajo/Imágenes/1c1feffed7dc8a90a755642552b53990.gif");
+            case "kr"->this.enlace("Kriptón","","","gaseoso","","/home/trabajo/Imágenes/1c1feffed7dc8a90a755642552b53990.gif");
+            case "xe"->this.enlace("Xenón","","","gaseoso","","/home/trabajo/Imágenes/1c1feffed7dc8a90a755642552b53990.gif");
+            case "rn"->this.enlace("Radon","","","gaseoso","","/home/trabajo/Imágenes/1c1feffed7dc8a90a755642552b53990.gif");
+            case "og"->this.enlace("Oganesón","","","desconocido","","/home/trabajo/Imágenes/loading-25.gif");
+            case "la"->this.enlace("Lantano","","","solido","","/home/trabajo/Imágenes/giphy (1).gif");
+            case "ce"->this.enlace("Cerio","","","solido","","/home/trabajo/Imágenes/giphy (1).gif");
+            case "pr"->this.enlace("Praseodimio","","","solido","","/home/trabajo/Imágenes/giphy (1).gif");
+            case "nd"->this.enlace("Neodimio","","","solido","","/home/trabajo/Imágenes/giphy (1).gif");
+            case "pm"->this.enlace("Prometio","","","solido","","/home/trabajo/Imágenes/giphy (1).gif");
+            case "sm"->this.enlace("Samario","","","solido","","/home/trabajo/Imágenes/giphy (1).gif");
+            case "eu"->this.enlace("Europio","","","solido","","/home/trabajo/Imágenes/giphy (1).gif");
+            case "gd"->this.enlace("Gadolinio","","","solido","","/home/trabajo/Imágenes/giphy (1).gif");
+            case "tb"->this.enlace("Terbio","","","solido","","/home/trabajo/Imágenes/giphy (1).gif");
+            case "er"->this.enlace("Erbio","","","solido","","/home/trabajo/Imágenes/giphy (1).gif");
+            case "tm"->this.enlace("Tulio","","","solido","","/home/trabajo/Imágenes/giphy (1).gif");
+            case "yb"->this.enlace("Iterbio","","","solido","","/home/trabajo/Imágenes/giphy (1).gif");
+            case "ac"->this.enlace("Actinio","","","solido","","/home/trabajo/Imágenes/giphy (1).gif");
+            case "th"->this.enlace("Torio","","","solido","","/home/trabajo/Imágenes/giphy (1).gif");
+            case "pa"->this.enlace("Protactinio","","","solido","","/home/trabajo/Imágenes/giphy (1).gif");
+            case "u"->this.enlace("Uranio","","","solido","","/home/trabajo/Imágenes/giphy (1).gif");
+            case "np"->this.enlace("Neptunio","","","solido","","/home/trabajo/Imágenes/giphy (1).gif");
+            case "pu"->this.enlace("Plutonio","","","solido","","/home/trabajo/Imágenes/giphy (1).gif");
+            case "am"->this.enlace("Americio","","","solido","","/home/trabajo/Imágenes/giphy (1).gif");
+            case "cm"->this.enlace("Curio","","","solido","","/home/trabajo/Imágenes/giphy (1).gif");
+            case "bk"->this.enlace("Berquelio","","","solido","","/home/trabajo/Imágenes/giphy (1).gif");
+            case "cf"->this.enlace("Californio","","","solido","","/home/trabajo/Imágenes/giphy (1).gif");
+            case "es"->this.enlace("Einstenio","","","solido","","/home/trabajo/Imágenes/giphy (1).gif");
+            case "fm"->this.enlace("Fermio","","","solido","","/home/trabajo/Imágenes/giphy (1).gif");
+            case "md"->this.enlace("Mendelevio","","","solido","","/home/trabajo/Imágenes/giphy (1).gif");
+            case "no"->this.enlace("Nobelio","","","solido","","/home/trabajo/Imágenes/giphy (1).gif");
         }
     }
     
-    public void enlace (String nombre,String numAtomico,String masa,String electronegatividad,String gif){
+    public void enlace (String nombre,String numAtomico,String masa,String estadodeAg,String electro,String gif){
         informacion a = new informacion();
-        a.rellena("nombre: " +nombre+ "\n" + "\n" + "numero atomico: " +numAtomico+ "\n" + "\n" + "masa atomica: " +masa+ "\n" + "\n" + "electronegatividad: "+electronegatividad);
+        a.rellena("Nombre: " +nombre+ "\n" + "\n" + "Numero atómico: " +numAtomico+ "\n" + "\n" + "Masa atómica: " +masa+ "\n" + "\n" + "Estado de agregacion: "+estadodeAg+"\n" + "\n" + "Electronegatividad: "+electro);
         a.setVisible(true);
         a.rellena2(gif);
     }
@@ -437,6 +436,8 @@ public final class ventana extends javax.swing.JFrame implements ActionListener{
         lantanidos = new javax.swing.JLabel();
         Malcalinos = new javax.swing.JLabel();
         GNobles = new javax.swing.JLabel();
+        jLabel37 = new javax.swing.JLabel();
+        Ele = new javax.swing.JLabel();
         H = new javax.swing.JButton();
         Litio = new javax.swing.JButton();
         Francio = new javax.swing.JButton();
@@ -447,6 +448,8 @@ public final class ventana extends javax.swing.JFrame implements ActionListener{
         jLabel5 = new javax.swing.JLabel();
         jLabel6 = new javax.swing.JLabel();
         jLabel7 = new javax.swing.JLabel();
+        btelectro = new javax.swing.JToggleButton();
+        jToggleButton1 = new javax.swing.JToggleButton();
         Sodio = new javax.swing.JButton();
         Potasio = new javax.swing.JButton();
         Rubidio = new javax.swing.JButton();
@@ -606,7 +609,7 @@ public final class ventana extends javax.swing.JFrame implements ActionListener{
                 jLabel27MouseExited(evt);
             }
         });
-        getContentPane().add(jLabel27, new org.netbeans.lib.awtextra.AbsoluteConstraints(200, 100, 130, 20));
+        getContentPane().add(jLabel27, new org.netbeans.lib.awtextra.AbsoluteConstraints(220, 110, 130, 20));
 
         jLabel28.setBackground(new java.awt.Color(254, 254, 254));
         jLabel28.setFont(new java.awt.Font("Comic Book", 0, 15)); // NOI18N
@@ -620,7 +623,7 @@ public final class ventana extends javax.swing.JFrame implements ActionListener{
                 jLabel28MouseExited(evt);
             }
         });
-        getContentPane().add(jLabel28, new org.netbeans.lib.awtextra.AbsoluteConstraints(180, 20, 120, 20));
+        getContentPane().add(jLabel28, new org.netbeans.lib.awtextra.AbsoluteConstraints(220, 30, 120, 20));
 
         jLabel29.setBackground(new java.awt.Color(254, 254, 254));
         jLabel29.setFont(new java.awt.Font("Comic Book", 0, 15)); // NOI18N
@@ -634,7 +637,7 @@ public final class ventana extends javax.swing.JFrame implements ActionListener{
                 jLabel29MouseExited(evt);
             }
         });
-        getContentPane().add(jLabel29, new org.netbeans.lib.awtextra.AbsoluteConstraints(210, 40, 110, 20));
+        getContentPane().add(jLabel29, new org.netbeans.lib.awtextra.AbsoluteConstraints(220, 50, 110, 20));
 
         jLabel30.setBackground(new java.awt.Color(254, 254, 254));
         jLabel30.setFont(new java.awt.Font("Comic Book", 0, 15)); // NOI18N
@@ -648,7 +651,7 @@ public final class ventana extends javax.swing.JFrame implements ActionListener{
                 jLabel30MouseExited(evt);
             }
         });
-        getContentPane().add(jLabel30, new org.netbeans.lib.awtextra.AbsoluteConstraints(210, 60, 130, 20));
+        getContentPane().add(jLabel30, new org.netbeans.lib.awtextra.AbsoluteConstraints(220, 70, 130, 20));
 
         jLabel31.setBackground(new java.awt.Color(254, 254, 254));
         jLabel31.setFont(new java.awt.Font("Comic Book", 0, 15)); // NOI18N
@@ -662,7 +665,7 @@ public final class ventana extends javax.swing.JFrame implements ActionListener{
                 jLabel31MouseExited(evt);
             }
         });
-        getContentPane().add(jLabel31, new org.netbeans.lib.awtextra.AbsoluteConstraints(220, 80, 130, 20));
+        getContentPane().add(jLabel31, new org.netbeans.lib.awtextra.AbsoluteConstraints(220, 90, 130, 20));
 
         jLabel32.setBackground(new java.awt.Color(254, 254, 254));
         jLabel32.setFont(new java.awt.Font("Comic Book", 0, 15)); // NOI18N
@@ -676,7 +679,7 @@ public final class ventana extends javax.swing.JFrame implements ActionListener{
                 jLabel32MouseExited(evt);
             }
         });
-        getContentPane().add(jLabel32, new org.netbeans.lib.awtextra.AbsoluteConstraints(500, 100, 130, 20));
+        getContentPane().add(jLabel32, new org.netbeans.lib.awtextra.AbsoluteConstraints(440, 110, 80, 20));
 
         jLabel33.setBackground(new java.awt.Color(254, 254, 254));
         jLabel33.setFont(new java.awt.Font("Comic Book", 0, 15)); // NOI18N
@@ -690,7 +693,7 @@ public final class ventana extends javax.swing.JFrame implements ActionListener{
                 jLabel33MouseExited(evt);
             }
         });
-        getContentPane().add(jLabel33, new org.netbeans.lib.awtextra.AbsoluteConstraints(480, 80, 130, 20));
+        getContentPane().add(jLabel33, new org.netbeans.lib.awtextra.AbsoluteConstraints(440, 90, 100, 20));
 
         jLabel34.setBackground(new java.awt.Color(254, 254, 254));
         jLabel34.setFont(new java.awt.Font("Comic Book", 0, 15)); // NOI18N
@@ -704,7 +707,7 @@ public final class ventana extends javax.swing.JFrame implements ActionListener{
                 jLabel34MouseExited(evt);
             }
         });
-        getContentPane().add(jLabel34, new org.netbeans.lib.awtextra.AbsoluteConstraints(410, 60, 160, 20));
+        getContentPane().add(jLabel34, new org.netbeans.lib.awtextra.AbsoluteConstraints(440, 70, 150, 20));
 
         jLabel35.setBackground(new java.awt.Color(254, 254, 254));
         jLabel35.setFont(new java.awt.Font("Comic Book", 0, 15)); // NOI18N
@@ -718,7 +721,7 @@ public final class ventana extends javax.swing.JFrame implements ActionListener{
                 jLabel35MouseExited(evt);
             }
         });
-        getContentPane().add(jLabel35, new org.netbeans.lib.awtextra.AbsoluteConstraints(420, 40, 140, 20));
+        getContentPane().add(jLabel35, new org.netbeans.lib.awtextra.AbsoluteConstraints(440, 50, 140, 20));
 
         jLabel36.setBackground(new java.awt.Color(254, 254, 254));
         jLabel36.setFont(new java.awt.Font("Comic Book", 0, 15)); // NOI18N
@@ -732,7 +735,7 @@ public final class ventana extends javax.swing.JFrame implements ActionListener{
                 jLabel36MouseExited(evt);
             }
         });
-        getContentPane().add(jLabel36, new org.netbeans.lib.awtextra.AbsoluteConstraints(360, 20, 180, 20));
+        getContentPane().add(jLabel36, new org.netbeans.lib.awtextra.AbsoluteConstraints(440, 30, 180, 20));
 
         nometales.setIcon(new javax.swing.ImageIcon("/home/trabajo/Imágenes/tablaperiodica/dif6.png")); // NOI18N
         getContentPane().add(nometales, new org.netbeans.lib.awtextra.AbsoluteConstraints(710, 90, -1, 180));
@@ -744,28 +747,34 @@ public final class ventana extends javax.swing.JFrame implements ActionListener{
         getContentPane().add(metaloides, new org.netbeans.lib.awtextra.AbsoluteConstraints(660, 100, -1, 260));
 
         nometales2.setIcon(new javax.swing.ImageIcon("/home/trabajo/Imágenes/tablaperiodica/dif.png")); // NOI18N
-        getContentPane().add(nometales2, new org.netbeans.lib.awtextra.AbsoluteConstraints(70, 40, 50, 70));
+        getContentPane().add(nometales2, new org.netbeans.lib.awtextra.AbsoluteConstraints(70, 60, 50, 50));
 
         alcalinoterreos.setIcon(new javax.swing.ImageIcon("/home/trabajo/Imágenes/tablaperiodica/dif.png")); // NOI18N
         getContentPane().add(alcalinoterreos, new org.netbeans.lib.awtextra.AbsoluteConstraints(70, 110, 50, 300));
 
         halogenos.setIcon(new javax.swing.ImageIcon("/home/trabajo/Imágenes/tablaperiodica/dif2.png")); // NOI18N
-        getContentPane().add(halogenos, new org.netbeans.lib.awtextra.AbsoluteConstraints(870, 100, 50, 310));
+        getContentPane().add(halogenos, new org.netbeans.lib.awtextra.AbsoluteConstraints(870, 110, 50, 300));
 
         actinidos.setIcon(new javax.swing.ImageIcon("/home/trabajo/Imágenes/tablaperiodica/dif3.png")); // NOI18N
         getContentPane().add(actinidos, new org.netbeans.lib.awtextra.AbsoluteConstraints(160, 480, 740, 50));
 
         Mtransicion.setIcon(new javax.swing.ImageIcon("/home/trabajo/Imágenes/tablaperiodica/dif4.png")); // NOI18N
-        getContentPane().add(Mtransicion, new org.netbeans.lib.awtextra.AbsoluteConstraints(170, 180, 510, 230));
+        getContentPane().add(Mtransicion, new org.netbeans.lib.awtextra.AbsoluteConstraints(170, 210, 510, 200));
 
         lantanidos.setIcon(new javax.swing.ImageIcon("/home/trabajo/Imágenes/tablaperiodica/dif3.png")); // NOI18N
         getContentPane().add(lantanidos, new org.netbeans.lib.awtextra.AbsoluteConstraints(160, 420, 730, 60));
 
         Malcalinos.setIcon(new javax.swing.ImageIcon("/home/trabajo/Imágenes/tablaperiodica/dif.png")); // NOI18N
-        getContentPane().add(Malcalinos, new org.netbeans.lib.awtextra.AbsoluteConstraints(120, 90, 50, 320));
+        getContentPane().add(Malcalinos, new org.netbeans.lib.awtextra.AbsoluteConstraints(120, 110, 50, 300));
 
         GNobles.setIcon(new javax.swing.ImageIcon("/home/trabajo/Imágenes/tablaperiodica/dif2.png")); // NOI18N
-        getContentPane().add(GNobles, new org.netbeans.lib.awtextra.AbsoluteConstraints(920, 40, 50, 370));
+        getContentPane().add(GNobles, new org.netbeans.lib.awtextra.AbsoluteConstraints(920, 60, 50, 350));
+
+        jLabel37.setIcon(new javax.swing.ImageIcon("/home/trabajo/Imágenes/tablaperiodica/spdf.png")); // NOI18N
+        getContentPane().add(jLabel37, new org.netbeans.lib.awtextra.AbsoluteConstraints(60, 50, -1, -1));
+
+        Ele.setIcon(new javax.swing.ImageIcon("/home/trabajo/Imágenes/tablaperiodica/electronegatividad.png")); // NOI18N
+        getContentPane().add(Ele, new org.netbeans.lib.awtextra.AbsoluteConstraints(70, 50, 900, 490));
 
         H.setBackground(new java.awt.Color(74, 74, 74));
         H.setIcon(new javax.swing.ImageIcon("/home/trabajo/Imágenes/tablaperiodica/1.png")); // NOI18N
@@ -848,6 +857,32 @@ public final class ventana extends javax.swing.JFrame implements ActionListener{
         jLabel7.setForeground(new java.awt.Color(254, 254, 254));
         jLabel7.setText("6");
         getContentPane().add(jLabel7, new org.netbeans.lib.awtextra.AbsoluteConstraints(50, 320, 24, -1));
+
+        btelectro.setBackground(new java.awt.Color(254, 254, 254));
+        btelectro.setFont(new java.awt.Font("Comic Book", 0, 15)); // NOI18N
+        btelectro.setForeground(new java.awt.Color(254, 254, 254));
+        btelectro.setText("Electronegatividad");
+        btelectro.setBorderPainted(false);
+        btelectro.setContentAreaFilled(false);
+        btelectro.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                btelectroActionPerformed(evt);
+            }
+        });
+        getContentPane().add(btelectro, new org.netbeans.lib.awtextra.AbsoluteConstraints(1110, 90, -1, -1));
+
+        jToggleButton1.setBackground(new java.awt.Color(254, 254, 254));
+        jToggleButton1.setFont(new java.awt.Font("Comic Book", 0, 15)); // NOI18N
+        jToggleButton1.setForeground(new java.awt.Color(254, 254, 254));
+        jToggleButton1.setText("sdpf");
+        jToggleButton1.setBorderPainted(false);
+        jToggleButton1.setContentAreaFilled(false);
+        jToggleButton1.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jToggleButton1ActionPerformed(evt);
+            }
+        });
+        getContentPane().add(jToggleButton1, new org.netbeans.lib.awtextra.AbsoluteConstraints(1220, 140, -1, -1));
 
         Sodio.setBackground(new java.awt.Color(74, 74, 74));
         Sodio.setIcon(new javax.swing.ImageIcon("/home/trabajo/Imágenes/tablaperiodica/Na.png")); // NOI18N
@@ -2235,10 +2270,10 @@ public final class ventana extends javax.swing.JFrame implements ActionListener{
 
         jLabel8.setBackground(new java.awt.Color(33, 33, 33));
         jLabel8.setForeground(new java.awt.Color(44, 44, 44));
-        jLabel8.setIcon(new javax.swing.ImageIcon("/home/trabajo/Imágenes/Fondos de escritorio/17042.jpg")); // NOI18N
+        jLabel8.setIcon(new javax.swing.ImageIcon("/home/trabajo/Imágenes/tablaperiodica/fondo.png")); // NOI18N
         jLabel8.setBorder(null);
         jLabel8.setName("H"); // NOI18N
-        getContentPane().add(jLabel8, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, 1370, 740));
+        getContentPane().add(jLabel8, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, -4, 1370, -1));
 
         pack();
     }// </editor-fold>//GEN-END:initComponents
@@ -2293,7 +2328,6 @@ public final class ventana extends javax.swing.JFrame implements ActionListener{
 
     private void elemento4ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_elemento4ActionPerformed
         // TODO add your handling code here:
-        informacion a = new informacion();
     }//GEN-LAST:event_elemento4ActionPerformed
 
     private void elemento5ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_elemento5ActionPerformed
@@ -3043,9 +3077,30 @@ public final class ventana extends javax.swing.JFrame implements ActionListener{
         actinidos.setVisible(false);
     }//GEN-LAST:event_jLabel32MouseExited
 
+    private void btelectroActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btelectroActionPerformed
+        // TODO add your handling code here:
+        if(btelectro.isSelected()){
+            Ele.setVisible(true);
+        }else{
+            Ele.setVisible(false);
+        }
+        
+    }//GEN-LAST:event_btelectroActionPerformed
+
+    private void jToggleButton1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jToggleButton1ActionPerformed
+        // TODO add your handling code here:
+        
+        if(jToggleButton1.isSelected()){
+            jLabel37.setVisible(true);
+        }else{
+            jLabel37.setVisible(false);
+        }
+    }//GEN-LAST:event_jToggleButton1ActionPerformed
+
     // Variables declaration - do not modify//GEN-BEGIN:variables
     private javax.swing.JButton Berilio;
     private javax.swing.JButton Cesio;
+    private javax.swing.JLabel Ele;
     private javax.swing.JButton Francio;
     private javax.swing.JLabel GNobles;
     private javax.swing.JLabel Gnobles;
@@ -3059,6 +3114,7 @@ public final class ventana extends javax.swing.JFrame implements ActionListener{
     private javax.swing.JButton Sodio;
     private javax.swing.JLabel actinidos;
     private javax.swing.JLabel alcalinoterreos;
+    private javax.swing.JToggleButton btelectro;
     private javax.swing.JButton elemento;
     private javax.swing.JButton elemento1;
     private javax.swing.JButton elemento10;
@@ -3200,12 +3256,14 @@ public final class ventana extends javax.swing.JFrame implements ActionListener{
     private javax.swing.JLabel jLabel34;
     private javax.swing.JLabel jLabel35;
     private javax.swing.JLabel jLabel36;
+    private javax.swing.JLabel jLabel37;
     private javax.swing.JLabel jLabel4;
     private javax.swing.JLabel jLabel5;
     private javax.swing.JLabel jLabel6;
     private javax.swing.JLabel jLabel7;
     private javax.swing.JLabel jLabel8;
     private javax.swing.JLabel jLabel9;
+    private javax.swing.JToggleButton jToggleButton1;
     private javax.swing.JLabel lantanidos;
     private javax.swing.JLabel metaloides;
     private javax.swing.JLabel nometales;

@@ -25,6 +25,7 @@
     <Property name="iconImages" type="java.util.List" editor="org.netbeans.modules.form.ComponentChooserEditor">
       <ComponentRef name="null"/>
     </Property>
+    <Property name="name" type="java.lang.String" value="H" noResource="true"/>
     <Property name="resizable" type="boolean" value="false"/>
   </Properties>
   <SyntheticProperties>
@@ -41,7 +42,7 @@
     <AuxValue name="FormSettings_listenerGenerationStyle" type="java.lang.Integer" value="0"/>
     <AuxValue name="FormSettings_variablesLocal" type="java.lang.Boolean" value="false"/>
     <AuxValue name="FormSettings_variablesModifier" type="java.lang.Integer" value="2"/>
-    <AuxValue name="designerSize" type="java.awt.Dimension" value="-84,-19,0,5,115,114,0,18,106,97,118,97,46,97,119,116,46,68,105,109,101,110,115,105,111,110,65,-114,-39,-41,-84,95,68,20,2,0,2,73,0,6,104,101,105,103,104,116,73,0,5,119,105,100,116,104,120,112,0,0,2,34,0,0,3,-29"/>
+    <AuxValue name="designerSize" type="java.awt.Dimension" value="-84,-19,0,5,115,114,0,18,106,97,118,97,46,97,119,116,46,68,105,109,101,110,115,105,111,110,65,-114,-39,-41,-84,95,68,20,2,0,2,73,0,6,104,101,105,103,104,116,73,0,5,119,105,100,116,104,120,112,0,0,2,-30,0,0,5,91"/>
   </AuxValues>
 
   <Layout class="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout">
@@ -67,7 +68,7 @@
       </Events>
       <Constraints>
         <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
-          <AbsoluteConstraints x="200" y="100" width="130" height="20"/>
+          <AbsoluteConstraints x="220" y="110" width="130" height="20"/>
         </Constraint>
       </Constraints>
     </Component>
@@ -90,7 +91,7 @@
       </Events>
       <Constraints>
         <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
-          <AbsoluteConstraints x="180" y="20" width="120" height="20"/>
+          <AbsoluteConstraints x="220" y="30" width="120" height="20"/>
         </Constraint>
       </Constraints>
     </Component>
@@ -113,7 +114,7 @@
       </Events>
       <Constraints>
         <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
-          <AbsoluteConstraints x="210" y="40" width="110" height="20"/>
+          <AbsoluteConstraints x="220" y="50" width="110" height="20"/>
         </Constraint>
       </Constraints>
     </Component>
@@ -136,7 +137,7 @@
       </Events>
       <Constraints>
         <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
-          <AbsoluteConstraints x="210" y="60" width="130" height="20"/>
+          <AbsoluteConstraints x="220" y="70" width="130" height="20"/>
         </Constraint>
       </Constraints>
     </Component>
@@ -159,7 +160,7 @@
       </Events>
       <Constraints>
         <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
-          <AbsoluteConstraints x="220" y="80" width="130" height="20"/>
+          <AbsoluteConstraints x="220" y="90" width="130" height="20"/>
         </Constraint>
       </Constraints>
     </Component>
@@ -182,7 +183,7 @@
       </Events>
       <Constraints>
         <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
-          <AbsoluteConstraints x="500" y="100" width="130" height="20"/>
+          <AbsoluteConstraints x="440" y="110" width="80" height="20"/>
         </Constraint>
       </Constraints>
     </Component>
@@ -205,7 +206,7 @@
       </Events>
       <Constraints>
         <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
-          <AbsoluteConstraints x="480" y="80" width="130" height="20"/>
+          <AbsoluteConstraints x="440" y="90" width="100" height="20"/>
         </Constraint>
       </Constraints>
     </Component>
@@ -228,7 +229,7 @@
       </Events>
       <Constraints>
         <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
-          <AbsoluteConstraints x="410" y="60" width="160" height="20"/>
+          <AbsoluteConstraints x="440" y="70" width="150" height="20"/>
         </Constraint>
       </Constraints>
     </Component>
@@ -251,7 +252,7 @@
       </Events>
       <Constraints>
         <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
-          <AbsoluteConstraints x="420" y="40" width="140" height="20"/>
+          <AbsoluteConstraints x="440" y="50" width="140" height="20"/>
         </Constraint>
       </Constraints>
     </Component>
@@ -274,7 +275,7 @@
       </Events>
       <Constraints>
         <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
-          <AbsoluteConstraints x="360" y="20" width="180" height="20"/>
+          <AbsoluteConstraints x="440" y="30" width="180" height="20"/>
         </Constraint>
       </Constraints>
     </Component>
@@ -286,7 +287,7 @@
       </Properties>
       <Constraints>
         <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
-          <AbsoluteConstraints x="520" y="30" width="-1" height="180"/>
+          <AbsoluteConstraints x="710" y="90" width="-1" height="180"/>
         </Constraint>
       </Constraints>
     </Component>
@@ -298,7 +299,7 @@
       </Properties>
       <Constraints>
         <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
-          <AbsoluteConstraints x="350" y="90" width="-1" height="260"/>
+          <AbsoluteConstraints x="670" y="150" width="-1" height="260"/>
         </Constraint>
       </Constraints>
     </Component>
@@ -310,7 +311,7 @@
       </Properties>
       <Constraints>
         <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
-          <AbsoluteConstraints x="430" y="60" width="-1" height="260"/>
+          <AbsoluteConstraints x="660" y="100" width="-1" height="260"/>
         </Constraint>
       </Constraints>
     </Component>
@@ -346,7 +347,7 @@
       </Properties>
       <Constraints>
         <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
-          <AbsoluteConstraints x="870" y="80" width="50" height="330"/>
+          <AbsoluteConstraints x="870" y="100" width="50" height="310"/>
         </Constraint>
       </Constraints>
     </Component>
@@ -382,7 +383,7 @@
       </Properties>
       <Constraints>
         <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
-          <AbsoluteConstraints x="160" y="420" width="740" height="60"/>
+          <AbsoluteConstraints x="160" y="420" width="730" height="60"/>
         </Constraint>
       </Constraints>
     </Component>
@@ -406,11 +407,11 @@
       </Properties>
       <Constraints>
         <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
-          <AbsoluteConstraints x="920" y="30" width="50" height="380"/>
+          <AbsoluteConstraints x="920" y="40" width="50" height="370"/>
         </Constraint>
       </Constraints>
     </Component>
-    <Component class="javax.swing.JButton" name="Hidrogeno">
+    <Component class="javax.swing.JButton" name="H">
       <Properties>
         <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
           <Color blue="4a" green="4a" red="4a" type="rgb"/>
@@ -422,10 +423,11 @@
           <Border info="null"/>
         </Property>
         <Property name="borderPainted" type="boolean" value="false"/>
+        <Property name="name" type="java.lang.String" value="H" noResource="true"/>
       </Properties>
       <Events>
-        <EventHandler event="mouseReleased" listener="java.awt.event.MouseListener" parameters="java.awt.event.MouseEvent" handler="HidrogenoMouseReleased"/>
-        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="HidrogenoActionPerformed"/>
+        <EventHandler event="mouseReleased" listener="java.awt.event.MouseListener" parameters="java.awt.event.MouseEvent" handler="HMouseReleased"/>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="HActionPerformed"/>
       </Events>
       <Constraints>
         <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
@@ -442,6 +444,7 @@
           <Image iconType="2" name="/home/trabajo/Im&#xe1;genes/tablaperiodica/Li.png"/>
         </Property>
         <Property name="borderPainted" type="boolean" value="false"/>
+        <Property name="name" type="java.lang.String" value="li" noResource="true"/>
       </Properties>
       <Events>
         <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="LitioActionPerformed"/>
@@ -464,6 +467,7 @@
           <Border info="null"/>
         </Property>
         <Property name="borderPainted" type="boolean" value="false"/>
+        <Property name="name" type="java.lang.String" value="fr" noResource="true"/>
       </Properties>
       <Events>
         <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="FrancioActionPerformed"/>
@@ -616,6 +620,7 @@
           <Image iconType="2" name="/home/trabajo/Im&#xe1;genes/tablaperiodica/Na.png"/>
         </Property>
         <Property name="borderPainted" type="boolean" value="false"/>
+        <Property name="name" type="java.lang.String" value="na" noResource="true"/>
       </Properties>
       <Events>
         <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="SodioActionPerformed"/>
@@ -638,6 +643,7 @@
           <Border info="null"/>
         </Property>
         <Property name="borderPainted" type="boolean" value="false"/>
+        <Property name="name" type="java.lang.String" value="k" noResource="true"/>
       </Properties>
       <Events>
         <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="PotasioActionPerformed"/>
@@ -660,6 +666,7 @@
           <Border info="null"/>
         </Property>
         <Property name="borderPainted" type="boolean" value="false"/>
+        <Property name="name" type="java.lang.String" value="rb" noResource="true"/>
       </Properties>
       <Events>
         <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="RubidioActionPerformed"/>
@@ -682,6 +689,7 @@
           <Border info="null"/>
         </Property>
         <Property name="borderPainted" type="boolean" value="false"/>
+        <Property name="name" type="java.lang.String" value="cs" noResource="true"/>
       </Properties>
       <Events>
         <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="CesioActionPerformed"/>
@@ -701,6 +709,7 @@
           <Image iconType="2" name="/home/trabajo/Im&#xe1;genes/tablaperiodica/be.png"/>
         </Property>
         <Property name="borderPainted" type="boolean" value="false"/>
+        <Property name="name" type="java.lang.String" value="be" noResource="true"/>
       </Properties>
       <Events>
         <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="BerilioActionPerformed"/>
@@ -723,6 +732,7 @@
           <Border info="null"/>
         </Property>
         <Property name="borderPainted" type="boolean" value="false"/>
+        <Property name="name" type="java.lang.String" value="ra" noResource="true"/>
       </Properties>
       <Events>
         <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="elementoActionPerformed"/>
@@ -742,6 +752,7 @@
           <Image iconType="2" name="/home/trabajo/Im&#xe1;genes/tablaperiodica/mg.png"/>
         </Property>
         <Property name="borderPainted" type="boolean" value="false"/>
+        <Property name="name" type="java.lang.String" value="mg" noResource="true"/>
       </Properties>
       <Events>
         <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="elemento1ActionPerformed"/>
@@ -764,6 +775,7 @@
           <Border info="null"/>
         </Property>
         <Property name="borderPainted" type="boolean" value="false"/>
+        <Property name="name" type="java.lang.String" value="ca" noResource="true"/>
       </Properties>
       <Events>
         <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="elemento2ActionPerformed"/>
@@ -786,6 +798,7 @@
           <Border info="null"/>
         </Property>
         <Property name="borderPainted" type="boolean" value="false"/>
+        <Property name="name" type="java.lang.String" value="sr" noResource="true"/>
       </Properties>
       <Events>
         <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="elemento3ActionPerformed"/>
@@ -808,6 +821,7 @@
           <Border info="null"/>
         </Property>
         <Property name="borderPainted" type="boolean" value="false"/>
+        <Property name="name" type="java.lang.String" value="ba" noResource="true"/>
       </Properties>
       <Events>
         <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="elemento4ActionPerformed"/>
@@ -830,6 +844,7 @@
           <Border info="null"/>
         </Property>
         <Property name="borderPainted" type="boolean" value="false"/>
+        <Property name="name" type="java.lang.String" value="lr" noResource="true"/>
       </Properties>
       <Events>
         <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="elemento5ActionPerformed"/>
@@ -852,6 +867,7 @@
           <Border info="null"/>
         </Property>
         <Property name="borderPainted" type="boolean" value="false"/>
+        <Property name="name" type="java.lang.String" value="sc" noResource="true"/>
       </Properties>
       <Events>
         <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="elemento6ActionPerformed"/>
@@ -874,6 +890,7 @@
           <Border info="null"/>
         </Property>
         <Property name="borderPainted" type="boolean" value="false"/>
+        <Property name="name" type="java.lang.String" value="y" noResource="true"/>
       </Properties>
       <Events>
         <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="elemento7ActionPerformed"/>
@@ -896,6 +913,7 @@
           <Border info="null"/>
         </Property>
         <Property name="borderPainted" type="boolean" value="false"/>
+        <Property name="name" type="java.lang.String" value="lu" noResource="true"/>
       </Properties>
       <Events>
         <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="elemento8ActionPerformed"/>
@@ -915,6 +933,7 @@
           <Image iconType="2" name="/home/trabajo/Im&#xe1;genes/tablaperiodica/Rf.png"/>
         </Property>
         <Property name="borderPainted" type="boolean" value="false"/>
+        <Property name="name" type="java.lang.String" value="rf" noResource="true"/>
       </Properties>
       <Events>
         <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="elemento9ActionPerformed"/>
@@ -934,6 +953,7 @@
           <Image iconType="2" name="/home/trabajo/Im&#xe1;genes/tablaperiodica/Ti.png"/>
         </Property>
         <Property name="borderPainted" type="boolean" value="false"/>
+        <Property name="name" type="java.lang.String" value="ti" noResource="true"/>
       </Properties>
       <Events>
         <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="elemento10ActionPerformed"/>
@@ -953,6 +973,7 @@
           <Image iconType="2" name="/home/trabajo/Im&#xe1;genes/tablaperiodica/Zr.png"/>
         </Property>
         <Property name="borderPainted" type="boolean" value="false"/>
+        <Property name="name" type="java.lang.String" value="zr" noResource="true"/>
       </Properties>
       <Events>
         <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="elemento11ActionPerformed"/>
@@ -972,6 +993,7 @@
           <Image iconType="2" name="/home/trabajo/Im&#xe1;genes/tablaperiodica/Hf.png"/>
         </Property>
         <Property name="borderPainted" type="boolean" value="false"/>
+        <Property name="name" type="java.lang.String" value="hf" noResource="true"/>
       </Properties>
       <Events>
         <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="elemento12ActionPerformed"/>
@@ -991,6 +1013,7 @@
           <Image iconType="2" name="/home/trabajo/Im&#xe1;genes/tablaperiodica/Db.png"/>
         </Property>
         <Property name="borderPainted" type="boolean" value="false"/>
+        <Property name="name" type="java.lang.String" value="db" noResource="true"/>
       </Properties>
       <Events>
         <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="elemento13ActionPerformed"/>
@@ -1010,6 +1033,7 @@
           <Image iconType="2" name="/home/trabajo/Im&#xe1;genes/tablaperiodica/V.png"/>
         </Property>
         <Property name="borderPainted" type="boolean" value="false"/>
+        <Property name="name" type="java.lang.String" value="v" noResource="true"/>
       </Properties>
       <Events>
         <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="elemento14ActionPerformed"/>
@@ -1029,6 +1053,7 @@
           <Image iconType="2" name="/home/trabajo/Im&#xe1;genes/tablaperiodica/Nb.png"/>
         </Property>
         <Property name="borderPainted" type="boolean" value="false"/>
+        <Property name="name" type="java.lang.String" value="nb" noResource="true"/>
       </Properties>
       <Events>
         <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="elemento15ActionPerformed"/>
@@ -1048,6 +1073,7 @@
           <Image iconType="2" name="/home/trabajo/Im&#xe1;genes/tablaperiodica/Ta.png"/>
         </Property>
         <Property name="borderPainted" type="boolean" value="false"/>
+        <Property name="name" type="java.lang.String" value="ta" noResource="true"/>
       </Properties>
       <Events>
         <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="elemento16ActionPerformed"/>
@@ -1067,6 +1093,7 @@
           <Image iconType="2" name="/home/trabajo/Im&#xe1;genes/tablaperiodica/Sg.png"/>
         </Property>
         <Property name="borderPainted" type="boolean" value="false"/>
+        <Property name="name" type="java.lang.String" value="sg" noResource="true"/>
       </Properties>
       <Events>
         <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="elemento17ActionPerformed"/>
@@ -1086,6 +1113,7 @@
           <Image iconType="2" name="/home/trabajo/Im&#xe1;genes/tablaperiodica/Cr.png"/>
         </Property>
         <Property name="borderPainted" type="boolean" value="false"/>
+        <Property name="name" type="java.lang.String" value="cr" noResource="true"/>
       </Properties>
       <Events>
         <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="elemento18ActionPerformed"/>
@@ -1105,6 +1133,7 @@
           <Image iconType="2" name="/home/trabajo/Im&#xe1;genes/tablaperiodica/Mo.png"/>
         </Property>
         <Property name="borderPainted" type="boolean" value="false"/>
+        <Property name="name" type="java.lang.String" value="mo" noResource="true"/>
       </Properties>
       <Events>
         <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="elemento19ActionPerformed"/>
@@ -1124,6 +1153,7 @@
           <Image iconType="2" name="/home/trabajo/Im&#xe1;genes/tablaperiodica/W.png"/>
         </Property>
         <Property name="borderPainted" type="boolean" value="false"/>
+        <Property name="name" type="java.lang.String" value="w" noResource="true"/>
       </Properties>
       <Events>
         <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="elemento20ActionPerformed"/>
@@ -1143,6 +1173,7 @@
           <Image iconType="2" name="/home/trabajo/Im&#xe1;genes/tablaperiodica/Bh.png"/>
         </Property>
         <Property name="borderPainted" type="boolean" value="false"/>
+        <Property name="name" type="java.lang.String" value="bh" noResource="true"/>
       </Properties>
       <Events>
         <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="elemento21ActionPerformed"/>
@@ -1162,6 +1193,7 @@
           <Image iconType="2" name="/home/trabajo/Im&#xe1;genes/tablaperiodica/Mn.png"/>
         </Property>
         <Property name="borderPainted" type="boolean" value="false"/>
+        <Property name="name" type="java.lang.String" value="mn" noResource="true"/>
       </Properties>
       <Events>
         <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="elemento22ActionPerformed"/>
@@ -1181,6 +1213,7 @@
           <Image iconType="2" name="/home/trabajo/Im&#xe1;genes/tablaperiodica/Tc.png"/>
         </Property>
         <Property name="borderPainted" type="boolean" value="false"/>
+        <Property name="name" type="java.lang.String" value="tc" noResource="true"/>
       </Properties>
       <Events>
         <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="elemento23ActionPerformed"/>
@@ -1200,6 +1233,7 @@
           <Image iconType="2" name="/home/trabajo/Im&#xe1;genes/tablaperiodica/Re.png"/>
         </Property>
         <Property name="borderPainted" type="boolean" value="false"/>
+        <Property name="name" type="java.lang.String" value="re" noResource="true"/>
       </Properties>
       <Events>
         <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="elemento24ActionPerformed"/>
@@ -1219,6 +1253,7 @@
           <Image iconType="2" name="/home/trabajo/Im&#xe1;genes/tablaperiodica/Hs.png"/>
         </Property>
         <Property name="borderPainted" type="boolean" value="false"/>
+        <Property name="name" type="java.lang.String" value="hs" noResource="true"/>
       </Properties>
       <Events>
         <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="elemento25ActionPerformed"/>
@@ -1238,6 +1273,7 @@
           <Image iconType="2" name="/home/trabajo/Im&#xe1;genes/tablaperiodica/Fe.png"/>
         </Property>
         <Property name="borderPainted" type="boolean" value="false"/>
+        <Property name="name" type="java.lang.String" value="fe" noResource="true"/>
       </Properties>
       <Events>
         <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="elemento26ActionPerformed"/>
@@ -1257,6 +1293,7 @@
           <Image iconType="2" name="/home/trabajo/Im&#xe1;genes/tablaperiodica/Ru.png"/>
         </Property>
         <Property name="borderPainted" type="boolean" value="false"/>
+        <Property name="name" type="java.lang.String" value="ru" noResource="true"/>
       </Properties>
       <Events>
         <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="elemento27ActionPerformed"/>
@@ -1276,6 +1313,7 @@
           <Image iconType="2" name="/home/trabajo/Im&#xe1;genes/tablaperiodica/Os.png"/>
         </Property>
         <Property name="borderPainted" type="boolean" value="false"/>
+        <Property name="name" type="java.lang.String" value="os" noResource="true"/>
       </Properties>
       <Events>
         <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="elemento28ActionPerformed"/>
@@ -1295,6 +1333,7 @@
           <Image iconType="2" name="/home/trabajo/Im&#xe1;genes/tablaperiodica/Mt.png"/>
         </Property>
         <Property name="borderPainted" type="boolean" value="false"/>
+        <Property name="name" type="java.lang.String" value="mt" noResource="true"/>
       </Properties>
       <Events>
         <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="elemento29ActionPerformed"/>
@@ -1314,6 +1353,7 @@
           <Image iconType="2" name="/home/trabajo/Im&#xe1;genes/tablaperiodica/Co.png"/>
         </Property>
         <Property name="borderPainted" type="boolean" value="false"/>
+        <Property name="name" type="java.lang.String" value="co" noResource="true"/>
       </Properties>
       <Events>
         <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="elemento30ActionPerformed"/>
@@ -1333,6 +1373,7 @@
           <Image iconType="2" name="/home/trabajo/Im&#xe1;genes/tablaperiodica/Rh.png"/>
         </Property>
         <Property name="borderPainted" type="boolean" value="false"/>
+        <Property name="name" type="java.lang.String" value="rh" noResource="true"/>
       </Properties>
       <Events>
         <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="elemento31ActionPerformed"/>
@@ -1352,6 +1393,7 @@
           <Image iconType="2" name="/home/trabajo/Im&#xe1;genes/tablaperiodica/Ir.png"/>
         </Property>
         <Property name="borderPainted" type="boolean" value="false"/>
+        <Property name="name" type="java.lang.String" value="ir" noResource="true"/>
       </Properties>
       <Events>
         <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="elemento32ActionPerformed"/>
@@ -1371,6 +1413,7 @@
           <Image iconType="2" name="/home/trabajo/Im&#xe1;genes/tablaperiodica/Ds.png"/>
         </Property>
         <Property name="borderPainted" type="boolean" value="false"/>
+        <Property name="name" type="java.lang.String" value="ds" noResource="true"/>
       </Properties>
       <Events>
         <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="elemento33ActionPerformed"/>
@@ -1390,6 +1433,7 @@
           <Image iconType="2" name="/home/trabajo/Im&#xe1;genes/tablaperiodica/Ni.png"/>
         </Property>
         <Property name="borderPainted" type="boolean" value="false"/>
+        <Property name="name" type="java.lang.String" value="ni" noResource="true"/>
       </Properties>
       <Events>
         <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="elemento34ActionPerformed"/>
@@ -1409,6 +1453,7 @@
           <Image iconType="2" name="/home/trabajo/Im&#xe1;genes/tablaperiodica/Pd.png"/>
         </Property>
         <Property name="borderPainted" type="boolean" value="false"/>
+        <Property name="name" type="java.lang.String" value="pd" noResource="true"/>
       </Properties>
       <Events>
         <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="elemento35ActionPerformed"/>
@@ -1428,6 +1473,7 @@
           <Image iconType="2" name="/home/trabajo/Im&#xe1;genes/tablaperiodica/Pt.png"/>
         </Property>
         <Property name="borderPainted" type="boolean" value="false"/>
+        <Property name="name" type="java.lang.String" value="pt" noResource="true"/>
       </Properties>
       <Events>
         <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="elemento36ActionPerformed"/>
@@ -1447,6 +1493,7 @@
           <Image iconType="2" name="/home/trabajo/Im&#xe1;genes/tablaperiodica/Rg.png"/>
         </Property>
         <Property name="borderPainted" type="boolean" value="false"/>
+        <Property name="name" type="java.lang.String" value="rg" noResource="true"/>
       </Properties>
       <Events>
         <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="elemento37ActionPerformed"/>
@@ -1466,6 +1513,7 @@
           <Image iconType="2" name="/home/trabajo/Im&#xe1;genes/tablaperiodica/Cu.png"/>
         </Property>
         <Property name="borderPainted" type="boolean" value="false"/>
+        <Property name="name" type="java.lang.String" value="cu" noResource="true"/>
       </Properties>
       <Events>
         <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="elemento38ActionPerformed"/>
@@ -1485,6 +1533,7 @@
           <Image iconType="2" name="/home/trabajo/Im&#xe1;genes/tablaperiodica/Ag.png"/>
         </Property>
         <Property name="borderPainted" type="boolean" value="false"/>
+        <Property name="name" type="java.lang.String" value="ag" noResource="true"/>
       </Properties>
       <Events>
         <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="elemento39ActionPerformed"/>
@@ -1504,6 +1553,7 @@
           <Image iconType="2" name="/home/trabajo/Im&#xe1;genes/tablaperiodica/Au.png"/>
         </Property>
         <Property name="borderPainted" type="boolean" value="false"/>
+        <Property name="name" type="java.lang.String" value="au" noResource="true"/>
       </Properties>
       <Events>
         <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="elemento40ActionPerformed"/>
@@ -1523,6 +1573,7 @@
           <Image iconType="2" name="/home/trabajo/Im&#xe1;genes/tablaperiodica/Cn.png"/>
         </Property>
         <Property name="borderPainted" type="boolean" value="false"/>
+        <Property name="name" type="java.lang.String" value="cn" noResource="true"/>
       </Properties>
       <Events>
         <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="elemento41ActionPerformed"/>
@@ -1542,6 +1593,7 @@
           <Image iconType="2" name="/home/trabajo/Im&#xe1;genes/tablaperiodica/Zn.png"/>
         </Property>
         <Property name="borderPainted" type="boolean" value="false"/>
+        <Property name="name" type="java.lang.String" value="zn" noResource="true"/>
       </Properties>
       <Events>
         <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="elemento42ActionPerformed"/>
@@ -1561,6 +1613,7 @@
           <Image iconType="2" name="/home/trabajo/Im&#xe1;genes/tablaperiodica/Cd.png"/>
         </Property>
         <Property name="borderPainted" type="boolean" value="false"/>
+        <Property name="name" type="java.lang.String" value="cd" noResource="true"/>
       </Properties>
       <Events>
         <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="elemento43ActionPerformed"/>
@@ -1580,6 +1633,7 @@
           <Image iconType="2" name="/home/trabajo/Im&#xe1;genes/tablaperiodica/Hg.png"/>
         </Property>
         <Property name="borderPainted" type="boolean" value="false"/>
+        <Property name="name" type="java.lang.String" value="hg" noResource="true"/>
       </Properties>
       <Events>
         <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="elemento44ActionPerformed"/>
@@ -1599,6 +1653,7 @@
           <Image iconType="2" name="/home/trabajo/Im&#xe1;genes/tablaperiodica/Nh.png"/>
         </Property>
         <Property name="borderPainted" type="boolean" value="false"/>
+        <Property name="name" type="java.lang.String" value="nh" noResource="true"/>
       </Properties>
       <Events>
         <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="elemento45ActionPerformed"/>
@@ -1618,6 +1673,7 @@
           <Image iconType="2" name="/home/trabajo/Im&#xe1;genes/tablaperiodica/Tl.png"/>
         </Property>
         <Property name="borderPainted" type="boolean" value="false"/>
+        <Property name="name" type="java.lang.String" value="tl" noResource="true"/>
       </Properties>
       <Events>
         <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="elemento46ActionPerformed"/>
@@ -1637,6 +1693,7 @@
           <Image iconType="2" name="/home/trabajo/Im&#xe1;genes/tablaperiodica/In.png"/>
         </Property>
         <Property name="borderPainted" type="boolean" value="false"/>
+        <Property name="name" type="java.lang.String" value="in" noResource="true"/>
       </Properties>
       <Events>
         <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="elemento47ActionPerformed"/>
@@ -1656,6 +1713,7 @@
           <Image iconType="2" name="/home/trabajo/Im&#xe1;genes/tablaperiodica/Ga.png"/>
         </Property>
         <Property name="borderPainted" type="boolean" value="false"/>
+        <Property name="name" type="java.lang.String" value="ga" noResource="true"/>
       </Properties>
       <Events>
         <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="elemento48ActionPerformed"/>
@@ -1675,6 +1733,7 @@
           <Image iconType="2" name="/home/trabajo/Im&#xe1;genes/tablaperiodica/B.png"/>
         </Property>
         <Property name="borderPainted" type="boolean" value="false"/>
+        <Property name="name" type="java.lang.String" value="b" noResource="true"/>
       </Properties>
       <Events>
         <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="elemento49ActionPerformed"/>
@@ -1694,6 +1753,7 @@
           <Image iconType="2" name="/home/trabajo/Im&#xe1;genes/tablaperiodica/Ai.png"/>
         </Property>
         <Property name="borderPainted" type="boolean" value="false"/>
+        <Property name="name" type="java.lang.String" value="al" noResource="true"/>
       </Properties>
       <Events>
         <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="elemento50ActionPerformed"/>
@@ -1713,6 +1773,7 @@
           <Image iconType="2" name="/home/trabajo/Im&#xe1;genes/tablaperiodica/Fl.png"/>
         </Property>
         <Property name="borderPainted" type="boolean" value="false"/>
+        <Property name="name" type="java.lang.String" value="fl" noResource="true"/>
       </Properties>
       <Events>
         <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="elemento51ActionPerformed"/>
@@ -1732,6 +1793,7 @@
           <Image iconType="2" name="/home/trabajo/Im&#xe1;genes/tablaperiodica/Pb.png"/>
         </Property>
         <Property name="borderPainted" type="boolean" value="false"/>
+        <Property name="name" type="java.lang.String" value="pb" noResource="true"/>
       </Properties>
       <Events>
         <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="elemento52ActionPerformed"/>
@@ -1751,6 +1813,7 @@
           <Image iconType="2" name="/home/trabajo/Im&#xe1;genes/tablaperiodica/Sn.png"/>
         </Property>
         <Property name="borderPainted" type="boolean" value="false"/>
+        <Property name="name" type="java.lang.String" value="sn" noResource="true"/>
       </Properties>
       <Events>
         <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="elemento53ActionPerformed"/>
@@ -1770,6 +1833,7 @@
           <Image iconType="2" name="/home/trabajo/Im&#xe1;genes/tablaperiodica/Ge.png"/>
         </Property>
         <Property name="borderPainted" type="boolean" value="false"/>
+        <Property name="name" type="java.lang.String" value="ge" noResource="true"/>
       </Properties>
       <Events>
         <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="elemento54ActionPerformed"/>
@@ -1789,6 +1853,7 @@
           <Image iconType="2" name="/home/trabajo/Im&#xe1;genes/tablaperiodica/C.png"/>
         </Property>
         <Property name="borderPainted" type="boolean" value="false"/>
+        <Property name="name" type="java.lang.String" value="c" noResource="true"/>
       </Properties>
       <Events>
         <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="elemento55ActionPerformed"/>
@@ -1808,6 +1873,7 @@
           <Image iconType="2" name="/home/trabajo/Im&#xe1;genes/tablaperiodica/Si.png"/>
         </Property>
         <Property name="borderPainted" type="boolean" value="false"/>
+        <Property name="name" type="java.lang.String" value="si" noResource="true"/>
       </Properties>
       <Events>
         <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="elemento56ActionPerformed"/>
@@ -1827,6 +1893,7 @@
           <Image iconType="2" name="/home/trabajo/Im&#xe1;genes/tablaperiodica/Mc.png"/>
         </Property>
         <Property name="borderPainted" type="boolean" value="false"/>
+        <Property name="name" type="java.lang.String" value="mc" noResource="true"/>
       </Properties>
       <Events>
         <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="elemento57ActionPerformed"/>
@@ -1846,6 +1913,7 @@
           <Image iconType="2" name="/home/trabajo/Im&#xe1;genes/tablaperiodica/Bi.png"/>
         </Property>
         <Property name="borderPainted" type="boolean" value="false"/>
+        <Property name="name" type="java.lang.String" value="bi" noResource="true"/>
       </Properties>
       <Events>
         <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="elemento58ActionPerformed"/>
@@ -1865,6 +1933,7 @@
           <Image iconType="2" name="/home/trabajo/Im&#xe1;genes/tablaperiodica/Sb.png"/>
         </Property>
         <Property name="borderPainted" type="boolean" value="false"/>
+        <Property name="name" type="java.lang.String" value="sb" noResource="true"/>
       </Properties>
       <Events>
         <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="elemento59ActionPerformed"/>
@@ -1884,6 +1953,7 @@
           <Image iconType="2" name="/home/trabajo/Im&#xe1;genes/tablaperiodica/As.png"/>
         </Property>
         <Property name="borderPainted" type="boolean" value="false"/>
+        <Property name="name" type="java.lang.String" value="as" noResource="true"/>
       </Properties>
       <Events>
         <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="elemento60ActionPerformed"/>
@@ -1903,6 +1973,7 @@
           <Image iconType="2" name="/home/trabajo/Im&#xe1;genes/tablaperiodica/n.png"/>
         </Property>
         <Property name="borderPainted" type="boolean" value="false"/>
+        <Property name="name" type="java.lang.String" value="n" noResource="true"/>
       </Properties>
       <Events>
         <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="elemento61ActionPerformed"/>
@@ -1922,6 +1993,7 @@
           <Image iconType="2" name="/home/trabajo/Im&#xe1;genes/tablaperiodica/P.png"/>
         </Property>
         <Property name="borderPainted" type="boolean" value="false"/>
+        <Property name="name" type="java.lang.String" value="p" noResource="true"/>
       </Properties>
       <Events>
         <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="elemento62ActionPerformed"/>
@@ -1941,6 +2013,7 @@
           <Image iconType="2" name="/home/trabajo/Im&#xe1;genes/tablaperiodica/Lv.png"/>
         </Property>
         <Property name="borderPainted" type="boolean" value="false"/>
+        <Property name="name" type="java.lang.String" value="lv" noResource="true"/>
       </Properties>
       <Events>
         <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="elemento63ActionPerformed"/>
@@ -1960,6 +2033,7 @@
           <Image iconType="2" name="/home/trabajo/Im&#xe1;genes/tablaperiodica/Po.png"/>
         </Property>
         <Property name="borderPainted" type="boolean" value="false"/>
+        <Property name="name" type="java.lang.String" value="po" noResource="true"/>
       </Properties>
       <Events>
         <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="elemento64ActionPerformed"/>
@@ -1979,6 +2053,7 @@
           <Image iconType="2" name="/home/trabajo/Im&#xe1;genes/tablaperiodica/Te.png"/>
         </Property>
         <Property name="borderPainted" type="boolean" value="false"/>
+        <Property name="name" type="java.lang.String" value="te" noResource="true"/>
       </Properties>
       <Events>
         <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="elemento65ActionPerformed"/>
@@ -1998,6 +2073,7 @@
           <Image iconType="2" name="/home/trabajo/Im&#xe1;genes/tablaperiodica/Se.png"/>
         </Property>
         <Property name="borderPainted" type="boolean" value="false"/>
+        <Property name="name" type="java.lang.String" value="se" noResource="true"/>
       </Properties>
       <Events>
         <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="elemento66ActionPerformed"/>
@@ -2017,6 +2093,7 @@
           <Image iconType="2" name="/home/trabajo/Im&#xe1;genes/tablaperiodica/O.png"/>
         </Property>
         <Property name="borderPainted" type="boolean" value="false"/>
+        <Property name="name" type="java.lang.String" value="o" noResource="true"/>
       </Properties>
       <Events>
         <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="elemento67ActionPerformed"/>
@@ -2036,6 +2113,7 @@
           <Image iconType="2" name="/home/trabajo/Im&#xe1;genes/tablaperiodica/S.png"/>
         </Property>
         <Property name="borderPainted" type="boolean" value="false"/>
+        <Property name="name" type="java.lang.String" value="s" noResource="true"/>
       </Properties>
       <Events>
         <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="elemento68ActionPerformed"/>
@@ -2055,6 +2133,7 @@
           <Image iconType="2" name="/home/trabajo/Im&#xe1;genes/tablaperiodica/Ts.png"/>
         </Property>
         <Property name="borderPainted" type="boolean" value="false"/>
+        <Property name="name" type="java.lang.String" value="ts" noResource="true"/>
       </Properties>
       <Events>
         <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="elemento69ActionPerformed"/>
@@ -2074,6 +2153,7 @@
           <Image iconType="2" name="/home/trabajo/Im&#xe1;genes/tablaperiodica/At.png"/>
         </Property>
         <Property name="borderPainted" type="boolean" value="false"/>
+        <Property name="name" type="java.lang.String" value="at" noResource="true"/>
       </Properties>
       <Events>
         <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="elemento70ActionPerformed"/>
@@ -2093,6 +2173,7 @@
           <Image iconType="2" name="/home/trabajo/Im&#xe1;genes/tablaperiodica/I.png"/>
         </Property>
         <Property name="borderPainted" type="boolean" value="false"/>
+        <Property name="name" type="java.lang.String" value="i" noResource="true"/>
       </Properties>
       <Events>
         <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="elemento71ActionPerformed"/>
@@ -2112,6 +2193,7 @@
           <Image iconType="2" name="/home/trabajo/Im&#xe1;genes/tablaperiodica/Br.png"/>
         </Property>
         <Property name="borderPainted" type="boolean" value="false"/>
+        <Property name="name" type="java.lang.String" value="br" noResource="true"/>
       </Properties>
       <Events>
         <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="elemento72ActionPerformed"/>
@@ -2131,6 +2213,7 @@
           <Image iconType="2" name="/home/trabajo/Im&#xe1;genes/tablaperiodica/F.png"/>
         </Property>
         <Property name="borderPainted" type="boolean" value="false"/>
+        <Property name="name" type="java.lang.String" value="f" noResource="true"/>
       </Properties>
       <Events>
         <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="elemento73ActionPerformed"/>
@@ -2150,6 +2233,7 @@
           <Image iconType="2" name="/home/trabajo/Im&#xe1;genes/tablaperiodica/Cl.png"/>
         </Property>
         <Property name="borderPainted" type="boolean" value="false"/>
+        <Property name="name" type="java.lang.String" value="cl" noResource="true"/>
       </Properties>
       <Events>
         <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="elemento74ActionPerformed"/>
@@ -2169,6 +2253,7 @@
           <Image iconType="2" name="/home/trabajo/Im&#xe1;genes/tablaperiodica/Og.png"/>
         </Property>
         <Property name="borderPainted" type="boolean" value="false"/>
+        <Property name="name" type="java.lang.String" value="og" noResource="true"/>
       </Properties>
       <Events>
         <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="elemento75ActionPerformed"/>
@@ -2188,6 +2273,7 @@
           <Image iconType="2" name="/home/trabajo/Im&#xe1;genes/tablaperiodica/Rn.png"/>
         </Property>
         <Property name="borderPainted" type="boolean" value="false"/>
+        <Property name="name" type="java.lang.String" value="rn" noResource="true"/>
       </Properties>
       <Events>
         <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="elemento76ActionPerformed"/>
@@ -2207,6 +2293,7 @@
           <Image iconType="2" name="/home/trabajo/Im&#xe1;genes/tablaperiodica/Xe.png"/>
         </Property>
         <Property name="borderPainted" type="boolean" value="false"/>
+        <Property name="name" type="java.lang.String" value="xe" noResource="true"/>
       </Properties>
       <Events>
         <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="elemento77ActionPerformed"/>
@@ -2226,6 +2313,7 @@
           <Image iconType="2" name="/home/trabajo/Im&#xe1;genes/tablaperiodica/Kr.png"/>
         </Property>
         <Property name="borderPainted" type="boolean" value="false"/>
+        <Property name="name" type="java.lang.String" value="kr" noResource="true"/>
       </Properties>
       <Events>
         <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="elemento78ActionPerformed"/>
@@ -2245,6 +2333,7 @@
           <Image iconType="2" name="/home/trabajo/Im&#xe1;genes/tablaperiodica/He.png"/>
         </Property>
         <Property name="borderPainted" type="boolean" value="false"/>
+        <Property name="name" type="java.lang.String" value="he" noResource="true"/>
       </Properties>
       <Events>
         <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="elemento79ActionPerformed"/>
@@ -2264,6 +2353,7 @@
           <Image iconType="2" name="/home/trabajo/Im&#xe1;genes/tablaperiodica/Ar.png"/>
         </Property>
         <Property name="borderPainted" type="boolean" value="false"/>
+        <Property name="name" type="java.lang.String" value="ar" noResource="true"/>
       </Properties>
       <Events>
         <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="elemento80ActionPerformed"/>
@@ -2283,6 +2373,7 @@
           <Image iconType="2" name="/home/trabajo/Im&#xe1;genes/tablaperiodica/Ne.png"/>
         </Property>
         <Property name="borderPainted" type="boolean" value="false"/>
+        <Property name="name" type="java.lang.String" value="ne" noResource="true"/>
       </Properties>
       <Events>
         <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="elemento81ActionPerformed"/>
@@ -2302,6 +2393,7 @@
           <Image iconType="2" name="/home/trabajo/Im&#xe1;genes/tablaperiodica/la.png"/>
         </Property>
         <Property name="borderPainted" type="boolean" value="false"/>
+        <Property name="name" type="java.lang.String" value="la" noResource="true"/>
       </Properties>
       <Events>
         <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="elemento82ActionPerformed"/>
@@ -2321,6 +2413,7 @@
           <Image iconType="2" name="/home/trabajo/Im&#xe1;genes/tablaperiodica/Yb.png"/>
         </Property>
         <Property name="borderPainted" type="boolean" value="false"/>
+        <Property name="name" type="java.lang.String" value="yb" noResource="true"/>
       </Properties>
       <Events>
         <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="elemento83ActionPerformed"/>
@@ -2340,6 +2433,7 @@
           <Image iconType="2" name="/home/trabajo/Im&#xe1;genes/tablaperiodica/Tm.png"/>
         </Property>
         <Property name="borderPainted" type="boolean" value="false"/>
+        <Property name="name" type="java.lang.String" value="tm" noResource="true"/>
       </Properties>
       <Events>
         <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="elemento84ActionPerformed"/>
@@ -2359,6 +2453,7 @@
           <Image iconType="2" name="/home/trabajo/Im&#xe1;genes/tablaperiodica/Er.png"/>
         </Property>
         <Property name="borderPainted" type="boolean" value="false"/>
+        <Property name="name" type="java.lang.String" value="er" noResource="true"/>
       </Properties>
       <Events>
         <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="elemento85ActionPerformed"/>
@@ -2378,6 +2473,7 @@
           <Image iconType="2" name="/home/trabajo/Im&#xe1;genes/tablaperiodica/Ho.png"/>
         </Property>
         <Property name="borderPainted" type="boolean" value="false"/>
+        <Property name="name" type="java.lang.String" value="ho" noResource="true"/>
       </Properties>
       <Events>
         <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="elemento86ActionPerformed"/>
@@ -2397,6 +2493,7 @@
           <Image iconType="2" name="/home/trabajo/Im&#xe1;genes/tablaperiodica/Dy.png"/>
         </Property>
         <Property name="borderPainted" type="boolean" value="false"/>
+        <Property name="name" type="java.lang.String" value="dy" noResource="true"/>
       </Properties>
       <Events>
         <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="elemento87ActionPerformed"/>
@@ -2416,6 +2513,7 @@
           <Image iconType="2" name="/home/trabajo/Im&#xe1;genes/tablaperiodica/Tb.png"/>
         </Property>
         <Property name="borderPainted" type="boolean" value="false"/>
+        <Property name="name" type="java.lang.String" value="tb" noResource="true"/>
       </Properties>
       <Events>
         <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="elemento88ActionPerformed"/>
@@ -2435,6 +2533,7 @@
           <Image iconType="2" name="/home/trabajo/Im&#xe1;genes/tablaperiodica/Gd.png"/>
         </Property>
         <Property name="borderPainted" type="boolean" value="false"/>
+        <Property name="name" type="java.lang.String" value="gd" noResource="true"/>
       </Properties>
       <Events>
         <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="elemento89ActionPerformed"/>
@@ -2454,6 +2553,7 @@
           <Image iconType="2" name="/home/trabajo/Im&#xe1;genes/tablaperiodica/Eu.png"/>
         </Property>
         <Property name="borderPainted" type="boolean" value="false"/>
+        <Property name="name" type="java.lang.String" value="eu" noResource="true"/>
       </Properties>
       <Events>
         <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="elemento90ActionPerformed"/>
@@ -2473,6 +2573,7 @@
           <Image iconType="2" name="/home/trabajo/Im&#xe1;genes/tablaperiodica/Sm.png"/>
         </Property>
         <Property name="borderPainted" type="boolean" value="false"/>
+        <Property name="name" type="java.lang.String" value="sm" noResource="true"/>
       </Properties>
       <Events>
         <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="elemento91ActionPerformed"/>
@@ -2492,6 +2593,7 @@
           <Image iconType="2" name="/home/trabajo/Im&#xe1;genes/tablaperiodica/Pm.png"/>
         </Property>
         <Property name="borderPainted" type="boolean" value="false"/>
+        <Property name="name" type="java.lang.String" value="pm" noResource="true"/>
       </Properties>
       <Events>
         <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="elemento92ActionPerformed"/>
@@ -2511,6 +2613,7 @@
           <Image iconType="2" name="/home/trabajo/Im&#xe1;genes/tablaperiodica/Nd.png"/>
         </Property>
         <Property name="borderPainted" type="boolean" value="false"/>
+        <Property name="name" type="java.lang.String" value="nd" noResource="true"/>
       </Properties>
       <Events>
         <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="elemento93ActionPerformed"/>
@@ -2530,6 +2633,7 @@
           <Image iconType="2" name="/home/trabajo/Im&#xe1;genes/tablaperiodica/pr.png"/>
         </Property>
         <Property name="borderPainted" type="boolean" value="false"/>
+        <Property name="name" type="java.lang.String" value="pr" noResource="true"/>
       </Properties>
       <Events>
         <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="elemento94ActionPerformed"/>
@@ -2549,6 +2653,7 @@
           <Image iconType="2" name="/home/trabajo/Im&#xe1;genes/tablaperiodica/Ce.png"/>
         </Property>
         <Property name="borderPainted" type="boolean" value="false"/>
+        <Property name="name" type="java.lang.String" value="ce" noResource="true"/>
       </Properties>
       <Events>
         <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="elemento95ActionPerformed"/>
@@ -2568,6 +2673,7 @@
           <Image iconType="2" name="/home/trabajo/Im&#xe1;genes/tablaperiodica/Am.png"/>
         </Property>
         <Property name="borderPainted" type="boolean" value="false"/>
+        <Property name="name" type="java.lang.String" value="am" noResource="true"/>
       </Properties>
       <Events>
         <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="elemento96ActionPerformed"/>
@@ -2587,6 +2693,7 @@
           <Image iconType="2" name="/home/trabajo/Im&#xe1;genes/tablaperiodica/Cf.png"/>
         </Property>
         <Property name="borderPainted" type="boolean" value="false"/>
+        <Property name="name" type="java.lang.String" value="cf" noResource="true"/>
       </Properties>
       <Events>
         <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="elemento97ActionPerformed"/>
@@ -2606,6 +2713,7 @@
           <Image iconType="2" name="/home/trabajo/Im&#xe1;genes/tablaperiodica/Es.png"/>
         </Property>
         <Property name="borderPainted" type="boolean" value="false"/>
+        <Property name="name" type="java.lang.String" value="es" noResource="true"/>
       </Properties>
       <Events>
         <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="elemento98ActionPerformed"/>
@@ -2625,6 +2733,7 @@
           <Image iconType="2" name="/home/trabajo/Im&#xe1;genes/tablaperiodica/Pa.png"/>
         </Property>
         <Property name="borderPainted" type="boolean" value="false"/>
+        <Property name="name" type="java.lang.String" value="pa" noResource="true"/>
       </Properties>
       <Events>
         <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="elemento99ActionPerformed"/>
@@ -2644,6 +2753,7 @@
           <Image iconType="2" name="/home/trabajo/Im&#xe1;genes/tablaperiodica/Th.png"/>
         </Property>
         <Property name="borderPainted" type="boolean" value="false"/>
+        <Property name="name" type="java.lang.String" value="th" noResource="true"/>
       </Properties>
       <Events>
         <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="elemento100ActionPerformed"/>
@@ -2663,6 +2773,7 @@
           <Image iconType="2" name="/home/trabajo/Im&#xe1;genes/tablaperiodica/Md.png"/>
         </Property>
         <Property name="borderPainted" type="boolean" value="false"/>
+        <Property name="name" type="java.lang.String" value="md" noResource="true"/>
       </Properties>
       <Events>
         <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="elemento101ActionPerformed"/>
@@ -2682,6 +2793,7 @@
           <Image iconType="2" name="/home/trabajo/Im&#xe1;genes/tablaperiodica/Fm.png"/>
         </Property>
         <Property name="borderPainted" type="boolean" value="false"/>
+        <Property name="name" type="java.lang.String" value="fm" noResource="true"/>
       </Properties>
       <Events>
         <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="elemento102ActionPerformed"/>
@@ -2701,6 +2813,7 @@
           <Image iconType="2" name="/home/trabajo/Im&#xe1;genes/tablaperiodica/Bk.png"/>
         </Property>
         <Property name="borderPainted" type="boolean" value="false"/>
+        <Property name="name" type="java.lang.String" value="bk" noResource="true"/>
       </Properties>
       <Events>
         <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="elemento103ActionPerformed"/>
@@ -2720,6 +2833,7 @@
           <Image iconType="2" name="/home/trabajo/Im&#xe1;genes/tablaperiodica/Cm.png"/>
         </Property>
         <Property name="borderPainted" type="boolean" value="false"/>
+        <Property name="name" type="java.lang.String" value="cm" noResource="true"/>
       </Properties>
       <Events>
         <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="elemento104ActionPerformed"/>
@@ -2739,6 +2853,7 @@
           <Image iconType="2" name="/home/trabajo/Im&#xe1;genes/tablaperiodica/U.png"/>
         </Property>
         <Property name="borderPainted" type="boolean" value="false"/>
+        <Property name="name" type="java.lang.String" value="u" noResource="true"/>
       </Properties>
       <Events>
         <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="elemento105ActionPerformed"/>
@@ -2758,6 +2873,7 @@
           <Image iconType="2" name="/home/trabajo/Im&#xe1;genes/tablaperiodica/Pu.png"/>
         </Property>
         <Property name="borderPainted" type="boolean" value="false"/>
+        <Property name="name" type="java.lang.String" value="pu" noResource="true"/>
       </Properties>
       <Events>
         <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="elemento106ActionPerformed"/>
@@ -2777,6 +2893,7 @@
           <Image iconType="2" name="/home/trabajo/Im&#xe1;genes/tablaperiodica/Ac.png"/>
         </Property>
         <Property name="borderPainted" type="boolean" value="false"/>
+        <Property name="name" type="java.lang.String" value="ac" noResource="true"/>
       </Properties>
       <Events>
         <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="elemento107ActionPerformed"/>
@@ -2796,6 +2913,7 @@
           <Image iconType="2" name="/home/trabajo/Im&#xe1;genes/tablaperiodica/Np.png"/>
         </Property>
         <Property name="borderPainted" type="boolean" value="false"/>
+        <Property name="name" type="java.lang.String" value="np" noResource="true"/>
       </Properties>
       <Events>
         <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="elemento108ActionPerformed"/>
@@ -2815,6 +2933,7 @@
           <Image iconType="2" name="/home/trabajo/Im&#xe1;genes/tablaperiodica/No.png"/>
         </Property>
         <Property name="borderPainted" type="boolean" value="false"/>
+        <Property name="name" type="java.lang.String" value="no" noResource="true"/>
       </Properties>
       <Events>
         <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="elemento109ActionPerformed"/>
@@ -3170,18 +3289,22 @@
     <Component class="javax.swing.JLabel" name="jLabel8">
       <Properties>
         <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
-          <Color blue="4a" green="4a" red="4a" type="rgb"/>
+          <Color blue="21" green="21" red="21" type="rgb"/>
+        </Property>
+        <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+          <Color blue="2c" green="2c" red="2c" type="rgb"/>
         </Property>
         <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-          <Image iconType="2" name="/home/trabajo/Im&#xe1;genes/Fondos de escritorio/-programming-wallpaper.png"/>
+          <Image iconType="2" name="/home/trabajo/Im&#xe1;genes/tablaperiodica/fondo.png"/>
         </Property>
         <Property name="border" type="javax.swing.border.Border" editor="org.netbeans.modules.form.editors2.BorderEditor">
           <Border info="null"/>
         </Property>
+        <Property name="name" type="java.lang.String" value="H" noResource="true"/>
       </Properties>
       <Constraints>
         <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
-          <AbsoluteConstraints x="0" y="0" width="1000" height="550"/>
+          <AbsoluteConstraints x="0" y="-4" width="1370" height="-1"/>
         </Constraint>
       </Constraints>
     </Component>

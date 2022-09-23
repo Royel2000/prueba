@@ -20,9 +20,10 @@ public class informacion extends javax.swing.JFrame {
     // <editor-fold defaultstate="collapsed" desc="Generated Code">//GEN-BEGIN:initComponents
     private void initComponents() {
 
+        label = new javax.swing.JLabel();
+        jLabel4 = new javax.swing.JLabel();
         jLabel2 = new javax.swing.JLabel();
         jLabel3 = new javax.swing.JLabel();
-        label = new javax.swing.JLabel();
         jButton1 = new javax.swing.JButton();
         jScrollPane2 = new javax.swing.JScrollPane();
         texto = new javax.swing.JTextArea();
@@ -33,16 +34,20 @@ public class informacion extends javax.swing.JFrame {
         setLocation(new java.awt.Point(0, 0));
         setResizable(false);
         getContentPane().setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
+        getContentPane().add(label, new org.netbeans.lib.awtextra.AbsoluteConstraints(1260, 640, 90, 90));
 
-        jLabel2.setBackground(new java.awt.Color(29, 29, 29));
+        jLabel4.setBackground(new java.awt.Color(248, 130, 91));
+        jLabel4.setIcon(new javax.swing.ImageIcon("/home/trabajo/Imágenes/tablaperiodica/liston.png")); // NOI18N
+        getContentPane().add(jLabel4, new org.netbeans.lib.awtextra.AbsoluteConstraints(1020, 620, 350, 120));
+
+        jLabel2.setBackground(new java.awt.Color(32, 36, 52));
         jLabel2.setFont(new java.awt.Font("Lakehurst Gothic Medium", 0, 12)); // NOI18N
         jLabel2.setForeground(new java.awt.Color(254, 254, 254));
         jLabel2.setText("  Estado de agregacion:");
-        jLabel2.setBorder(javax.swing.BorderFactory.createBevelBorder(javax.swing.border.BevelBorder.RAISED));
+        jLabel2.setBorder(javax.swing.BorderFactory.createBevelBorder(javax.swing.border.BevelBorder.LOWERED));
         jLabel2.setOpaque(true);
-        getContentPane().add(jLabel2, new org.netbeans.lib.awtextra.AbsoluteConstraints(170, 100, 220, 70));
-        getContentPane().add(jLabel3, new org.netbeans.lib.awtextra.AbsoluteConstraints(170, 100, 750, 580));
-        getContentPane().add(label, new org.netbeans.lib.awtextra.AbsoluteConstraints(1260, 640, 100, 90));
+        getContentPane().add(jLabel2, new org.netbeans.lib.awtextra.AbsoluteConstraints(430, 190, 540, 50));
+        getContentPane().add(jLabel3, new org.netbeans.lib.awtextra.AbsoluteConstraints(430, 230, 540, 510));
 
         jButton1.setBorderPainted(false);
         jButton1.setContentAreaFilled(false);
@@ -51,15 +56,15 @@ public class informacion extends javax.swing.JFrame {
                 jButton1ActionPerformed(evt);
             }
         });
-        getContentPane().add(jButton1, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 80, 970, 650));
+        getContentPane().add(jButton1, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, 970, 740));
 
         jScrollPane2.setBackground(new java.awt.Color(1, 1, 1));
         jScrollPane2.setForeground(new java.awt.Color(11, 11, 11));
         jScrollPane2.setToolTipText("");
 
         texto.setEditable(false);
-        texto.setBackground(new java.awt.Color(29, 29, 29));
-        texto.setFont(new java.awt.Font("Comic Book", 0, 18)); // NOI18N
+        texto.setBackground(new java.awt.Color(32, 36, 52));
+        texto.setFont(new java.awt.Font("Cantarell Extra Bold", 0, 18)); // NOI18N
         texto.setForeground(new java.awt.Color(254, 254, 254));
         texto.setRows(5);
         texto.setAutoscrolls(false);
@@ -72,9 +77,10 @@ public class informacion extends javax.swing.JFrame {
 
         getContentPane().add(jScrollPane2, new org.netbeans.lib.awtextra.AbsoluteConstraints(970, 0, 400, 740));
 
-        jLabel1.setIcon(new javax.swing.ImageIcon("/home/trabajo/image200.png")); // NOI18N
+        jLabel1.setIcon(new javax.swing.ImageIcon("/home/trabajo/Imágenes/tablaperiodica/fondodesenfoque.png")); // NOI18N
         jLabel1.setText("jLabel1");
-        getContentPane().add(jLabel1, new org.netbeans.lib.awtextra.AbsoluteConstraints(-10, -30, 1380, 770));
+        jLabel1.setAlignmentY(0.0F);
+        getContentPane().add(jLabel1, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, 1370, 740));
 
         pack();
     }// </editor-fold>//GEN-END:initComponents
@@ -129,6 +135,7 @@ public class informacion extends javax.swing.JFrame {
     private javax.swing.JLabel jLabel1;
     private javax.swing.JLabel jLabel2;
     private javax.swing.JLabel jLabel3;
+    private javax.swing.JLabel jLabel4;
     private javax.swing.JScrollPane jScrollPane2;
     private javax.swing.JLabel label;
     private javax.swing.JTextArea texto;
