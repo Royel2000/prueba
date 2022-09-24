@@ -250,32 +250,34 @@ public final class ventana extends javax.swing.JFrame implements ActionListener{
             case "xe"->this.enlace("Xenón","54","131,3","gaseoso","","/home/trabajo/Imágenes/1c1feffed7dc8a90a755642552b53990.gif");
             case "rn"->this.enlace("Radon","86","222","gaseoso","","/home/trabajo/Imágenes/1c1feffed7dc8a90a755642552b53990.gif");
             case "og"->this.enlace("Oganesón","118","294","desconocido","","/home/trabajo/Imágenes/loading-25.gif");
-            case "la"->this.enlace("Lantano","","","solido","","/home/trabajo/Imágenes/giphy (1).gif");
-            case "ce"->this.enlace("Cerio","","","solido","","/home/trabajo/Imágenes/giphy (1).gif");
-            case "pr"->this.enlace("Praseodimio","","","solido","","/home/trabajo/Imágenes/giphy (1).gif");
-            case "nd"->this.enlace("Neodimio","","","solido","","/home/trabajo/Imágenes/giphy (1).gif");
-            case "pm"->this.enlace("Prometio","","","solido","","/home/trabajo/Imágenes/giphy (1).gif");
-            case "sm"->this.enlace("Samario","","","solido","","/home/trabajo/Imágenes/giphy (1).gif");
-            case "eu"->this.enlace("Europio","","","solido","","/home/trabajo/Imágenes/giphy (1).gif");
-            case "gd"->this.enlace("Gadolinio","","","solido","","/home/trabajo/Imágenes/giphy (1).gif");
-            case "tb"->this.enlace("Terbio","","","solido","","/home/trabajo/Imágenes/giphy (1).gif");
-            case "er"->this.enlace("Erbio","","","solido","","/home/trabajo/Imágenes/giphy (1).gif");
-            case "tm"->this.enlace("Tulio","","","solido","","/home/trabajo/Imágenes/giphy (1).gif");
-            case "yb"->this.enlace("Iterbio","","","solido","","/home/trabajo/Imágenes/giphy (1).gif");
-            case "ac"->this.enlace("Actinio","","","solido","","/home/trabajo/Imágenes/giphy (1).gif");
-            case "th"->this.enlace("Torio","","","solido","","/home/trabajo/Imágenes/giphy (1).gif");
-            case "pa"->this.enlace("Protactinio","","","solido","","/home/trabajo/Imágenes/giphy (1).gif");
-            case "u"->this.enlace("Uranio","","","solido","","/home/trabajo/Imágenes/giphy (1).gif");
-            case "np"->this.enlace("Neptunio","","","solido","","/home/trabajo/Imágenes/giphy (1).gif");
-            case "pu"->this.enlace("Plutonio","","","solido","","/home/trabajo/Imágenes/giphy (1).gif");
-            case "am"->this.enlace("Americio","","","solido","","/home/trabajo/Imágenes/giphy (1).gif");
-            case "cm"->this.enlace("Curio","","","solido","","/home/trabajo/Imágenes/giphy (1).gif");
-            case "bk"->this.enlace("Berquelio","","","solido","","/home/trabajo/Imágenes/giphy (1).gif");
-            case "cf"->this.enlace("Californio","","","solido","","/home/trabajo/Imágenes/giphy (1).gif");
-            case "es"->this.enlace("Einstenio","","","solido","","/home/trabajo/Imágenes/giphy (1).gif");
-            case "fm"->this.enlace("Fermio","","","solido","","/home/trabajo/Imágenes/giphy (1).gif");
-            case "md"->this.enlace("Mendelevio","","","solido","","/home/trabajo/Imágenes/giphy (1).gif");
-            case "no"->this.enlace("Nobelio","","","solido","","/home/trabajo/Imágenes/giphy (1).gif");
+            case "la"->this.enlace("Lantano","57","138,9","solido","","/home/trabajo/Imágenes/giphy (1).gif");
+            case "ce"->this.enlace("Cerio","58","140,1","solido","","/home/trabajo/Imágenes/giphy (1).gif");
+            case "pr"->this.enlace("Praseodimio","59","140,9","solido","","/home/trabajo/Imágenes/giphy (1).gif");
+            case "nd"->this.enlace("Neodimio","60","144,4","solido","","/home/trabajo/Imágenes/giphy (1).gif");
+            case "pm"->this.enlace("Prometio","61","147","solido","","/home/trabajo/Imágenes/giphy (1).gif");
+            case "sm"->this.enlace("Samario","62","150,3","solido","","/home/trabajo/Imágenes/giphy (1).gif");
+            case "eu"->this.enlace("Europio","63","152,0","solido","","/home/trabajo/Imágenes/giphy (1).gif");
+            case "gd"->this.enlace("Gadolinio","64","157,2","solido","","/home/trabajo/Imágenes/giphy (1).gif");
+            case "tb"->this.enlace("Terbio","65","158,9","solido","","/home/trabajo/Imágenes/giphy (1).gif");
+            case "dy"->this.enlace("Disprosio","66","162","solido","","/home/trabajo/Imágenes/giphy (1).gif");
+            case "ho"->this.enlace("Holmio","67","164,9","solido","","/home/trabajo/Imágenes/giphy (1).gif");
+            case "er"->this.enlace("Erbio","68","167,3","solido","","/home/trabajo/Imágenes/giphy (1).gif");
+            case "tm"->this.enlace("Tulio","69","168,9","solido","","/home/trabajo/Imágenes/giphy (1).gif");
+            case "yb"->this.enlace("Iterbio","70","173,0","solido","","/home/trabajo/Imágenes/giphy (1).gif");
+            case "ac"->this.enlace("Actinio","89","227","solido","","/home/trabajo/Imágenes/giphy (1).gif");
+            case "th"->this.enlace("Torio","90","232,0","solido","","/home/trabajo/Imágenes/giphy (1).gif");
+            case "pa"->this.enlace("Protactinio","91","231","solido","","/home/trabajo/Imágenes/giphy (1).gif");
+            case "u"->this.enlace("Uranio","92","238,0","solido","","/home/trabajo/Imágenes/giphy (1).gif");
+            case "np"->this.enlace("Neptunio","93","237","solido","","/home/trabajo/Imágenes/giphy (1).gif");
+            case "pu"->this.enlace("Plutonio","94","242","solido","","/home/trabajo/Imágenes/giphy (1).gif");
+            case "am"->this.enlace("Americio","95","243","solido","","/home/trabajo/Imágenes/giphy (1).gif");
+            case "cm"->this.enlace("Curio","96","247","solido","","/home/trabajo/Imágenes/giphy (1).gif");
+            case "bk"->this.enlace("Berquelio","97","247","solido","","/home/trabajo/Imágenes/giphy (1).gif");
+            case "cf"->this.enlace("Californio","98","251","solido","","/home/trabajo/Imágenes/giphy (1).gif");
+            case "es"->this.enlace("Einstenio","99","252","solido","","/home/trabajo/Imágenes/giphy (1).gif");
+            case "fm"->this.enlace("Fermio","100","257","solido","","/home/trabajo/Imágenes/giphy (1).gif");
+            case "md"->this.enlace("Mendelevio","101","256","solido","","/home/trabajo/Imágenes/giphy (1).gif");
+            case "no"->this.enlace("Nobelio","102","259","solido","","/home/trabajo/Imágenes/giphy (1).gif");
         }
     }
     
@@ -565,6 +567,7 @@ public final class ventana extends javax.swing.JFrame implements ActionListener{
         elemento107 = new javax.swing.JButton();
         elemento108 = new javax.swing.JButton();
         elemento109 = new javax.swing.JButton();
+        jButton1 = new javax.swing.JButton();
         jLabel9 = new javax.swing.JLabel();
         jLabel10 = new javax.swing.JLabel();
         jLabel11 = new javax.swing.JLabel();
@@ -771,10 +774,10 @@ public final class ventana extends javax.swing.JFrame implements ActionListener{
         getContentPane().add(GNobles, new org.netbeans.lib.awtextra.AbsoluteConstraints(920, 60, 50, 350));
 
         jLabel37.setIcon(new javax.swing.ImageIcon("/home/trabajo/Imágenes/tablaperiodica/spdf.png")); // NOI18N
-        getContentPane().add(jLabel37, new org.netbeans.lib.awtextra.AbsoluteConstraints(60, 50, -1, -1));
+        getContentPane().add(jLabel37, new org.netbeans.lib.awtextra.AbsoluteConstraints(70, 50, -1, -1));
 
         Ele.setIcon(new javax.swing.ImageIcon("/home/trabajo/Imágenes/tablaperiodica/electronegatividad.png")); // NOI18N
-        getContentPane().add(Ele, new org.netbeans.lib.awtextra.AbsoluteConstraints(70, 50, 900, 490));
+        getContentPane().add(Ele, new org.netbeans.lib.awtextra.AbsoluteConstraints(80, 50, 900, 490));
 
         H.setBackground(new java.awt.Color(74, 74, 74));
         H.setIcon(new javax.swing.ImageIcon("/home/trabajo/Imágenes/tablaperiodica/1.png")); // NOI18N
@@ -825,7 +828,7 @@ public final class ventana extends javax.swing.JFrame implements ActionListener{
         jLabel2.setBackground(new java.awt.Color(254, 254, 254));
         jLabel2.setFont(new java.awt.Font("Elephant", 0, 15)); // NOI18N
         jLabel2.setForeground(new java.awt.Color(254, 254, 254));
-        jLabel2.setText("2");
+        jLabel2.setText("II A");
         getContentPane().add(jLabel2, new org.netbeans.lib.awtextra.AbsoluteConstraints(140, 90, 24, -1));
 
         jLabel3.setBackground(new java.awt.Color(254, 254, 254));
@@ -2160,6 +2163,17 @@ public final class ventana extends javax.swing.JFrame implements ActionListener{
         });
         getContentPane().add(elemento109, new org.netbeans.lib.awtextra.AbsoluteConstraints(820, 480, 48, 45));
 
+        jButton1.setBackground(new java.awt.Color(253, 81, 75));
+        jButton1.setFont(new java.awt.Font("Lakehurst Gothic Medium", 0, 15)); // NOI18N
+        jButton1.setForeground(new java.awt.Color(254, 254, 254));
+        jButton1.setText("volver");
+        jButton1.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jButton1ActionPerformed(evt);
+            }
+        });
+        getContentPane().add(jButton1, new org.netbeans.lib.awtextra.AbsoluteConstraints(130, 630, -1, -1));
+
         jLabel9.setBackground(new java.awt.Color(254, 254, 254));
         jLabel9.setFont(new java.awt.Font("Elephant", 0, 15)); // NOI18N
         jLabel9.setForeground(new java.awt.Color(254, 254, 254));
@@ -2169,103 +2183,103 @@ public final class ventana extends javax.swing.JFrame implements ActionListener{
         jLabel10.setBackground(new java.awt.Color(254, 254, 254));
         jLabel10.setFont(new java.awt.Font("Elephant", 0, 15)); // NOI18N
         jLabel10.setForeground(new java.awt.Color(254, 254, 254));
-        jLabel10.setText("6");
+        jLabel10.setText("v1 b");
         getContentPane().add(jLabel10, new org.netbeans.lib.awtextra.AbsoluteConstraints(340, 190, 24, -1));
 
         jLabel11.setBackground(new java.awt.Color(254, 254, 254));
         jLabel11.setFont(new java.awt.Font("Elephant", 0, 15)); // NOI18N
         jLabel11.setForeground(new java.awt.Color(254, 254, 254));
-        jLabel11.setText("7");
+        jLabel11.setText("vii b");
         getContentPane().add(jLabel11, new org.netbeans.lib.awtextra.AbsoluteConstraints(390, 190, 24, -1));
 
         jLabel12.setBackground(new java.awt.Color(254, 254, 254));
         jLabel12.setFont(new java.awt.Font("Elephant", 0, 15)); // NOI18N
         jLabel12.setForeground(new java.awt.Color(254, 254, 254));
-        jLabel12.setText("8");
-        getContentPane().add(jLabel12, new org.netbeans.lib.awtextra.AbsoluteConstraints(440, 190, 24, -1));
+        jLabel12.setText("viii b");
+        getContentPane().add(jLabel12, new org.netbeans.lib.awtextra.AbsoluteConstraints(440, 190, 30, -1));
 
         jLabel13.setBackground(new java.awt.Color(254, 254, 254));
         jLabel13.setFont(new java.awt.Font("Elephant", 0, 15)); // NOI18N
         jLabel13.setForeground(new java.awt.Color(254, 254, 254));
-        jLabel13.setText("1");
+        jLabel13.setText("I A");
         getContentPane().add(jLabel13, new org.netbeans.lib.awtextra.AbsoluteConstraints(90, 40, 24, -1));
 
         jLabel14.setBackground(new java.awt.Color(254, 254, 254));
         jLabel14.setFont(new java.awt.Font("Elephant", 0, 15)); // NOI18N
         jLabel14.setForeground(new java.awt.Color(254, 254, 254));
-        jLabel14.setText("5");
+        jLabel14.setText("v b");
         getContentPane().add(jLabel14, new org.netbeans.lib.awtextra.AbsoluteConstraints(290, 190, 24, -1));
 
         jLabel15.setBackground(new java.awt.Color(254, 254, 254));
         jLabel15.setFont(new java.awt.Font("Elephant", 0, 15)); // NOI18N
         jLabel15.setForeground(new java.awt.Color(254, 254, 254));
-        jLabel15.setText("4");
+        jLabel15.setText("iv b");
         getContentPane().add(jLabel15, new org.netbeans.lib.awtextra.AbsoluteConstraints(240, 190, 24, -1));
 
         jLabel16.setBackground(new java.awt.Color(254, 254, 254));
         jLabel16.setFont(new java.awt.Font("Elephant", 0, 15)); // NOI18N
         jLabel16.setForeground(new java.awt.Color(254, 254, 254));
-        jLabel16.setText("3");
+        jLabel16.setText("iii B");
         getContentPane().add(jLabel16, new org.netbeans.lib.awtextra.AbsoluteConstraints(190, 190, 24, -1));
 
         jLabel17.setBackground(new java.awt.Color(254, 254, 254));
         jLabel17.setFont(new java.awt.Font("Elephant", 0, 15)); // NOI18N
         jLabel17.setForeground(new java.awt.Color(254, 254, 254));
-        jLabel17.setText("12");
+        jLabel17.setText("ii b");
         getContentPane().add(jLabel17, new org.netbeans.lib.awtextra.AbsoluteConstraints(640, 190, 24, -1));
 
         jLabel18.setBackground(new java.awt.Color(254, 254, 254));
         jLabel18.setFont(new java.awt.Font("Elephant", 0, 15)); // NOI18N
         jLabel18.setForeground(new java.awt.Color(254, 254, 254));
-        jLabel18.setText("11");
+        jLabel18.setText("i b");
         getContentPane().add(jLabel18, new org.netbeans.lib.awtextra.AbsoluteConstraints(590, 190, 24, -1));
 
         jLabel19.setBackground(new java.awt.Color(254, 254, 254));
         jLabel19.setFont(new java.awt.Font("Elephant", 0, 15)); // NOI18N
         jLabel19.setForeground(new java.awt.Color(254, 254, 254));
-        jLabel19.setText("10");
-        getContentPane().add(jLabel19, new org.netbeans.lib.awtextra.AbsoluteConstraints(540, 190, 24, -1));
+        jLabel19.setText("viii b");
+        getContentPane().add(jLabel19, new org.netbeans.lib.awtextra.AbsoluteConstraints(534, 190, 30, -1));
 
         jLabel20.setBackground(new java.awt.Color(254, 254, 254));
         jLabel20.setFont(new java.awt.Font("Elephant", 0, 15)); // NOI18N
         jLabel20.setForeground(new java.awt.Color(254, 254, 254));
-        jLabel20.setText("9");
-        getContentPane().add(jLabel20, new org.netbeans.lib.awtextra.AbsoluteConstraints(490, 190, 24, -1));
+        jLabel20.setText("viii b");
+        getContentPane().add(jLabel20, new org.netbeans.lib.awtextra.AbsoluteConstraints(484, 190, 30, -1));
 
         jLabel21.setBackground(new java.awt.Color(254, 254, 254));
         jLabel21.setFont(new java.awt.Font("Elephant", 0, 15)); // NOI18N
         jLabel21.setForeground(new java.awt.Color(254, 254, 254));
-        jLabel21.setText("18");
+        jLabel21.setText("viii a");
         getContentPane().add(jLabel21, new org.netbeans.lib.awtextra.AbsoluteConstraints(940, 40, 24, -1));
 
         jLabel22.setBackground(new java.awt.Color(254, 254, 254));
         jLabel22.setFont(new java.awt.Font("Elephant", 0, 15)); // NOI18N
         jLabel22.setForeground(new java.awt.Color(254, 254, 254));
-        jLabel22.setText("16");
+        jLabel22.setText("vi a");
         getContentPane().add(jLabel22, new org.netbeans.lib.awtextra.AbsoluteConstraints(840, 90, 24, -1));
 
         jLabel23.setBackground(new java.awt.Color(254, 254, 254));
         jLabel23.setFont(new java.awt.Font("Elephant", 0, 15)); // NOI18N
         jLabel23.setForeground(new java.awt.Color(254, 254, 254));
-        jLabel23.setText("15");
+        jLabel23.setText("v a");
         getContentPane().add(jLabel23, new org.netbeans.lib.awtextra.AbsoluteConstraints(790, 90, 24, -1));
 
         jLabel24.setBackground(new java.awt.Color(254, 254, 254));
         jLabel24.setFont(new java.awt.Font("Elephant", 0, 15)); // NOI18N
         jLabel24.setForeground(new java.awt.Color(254, 254, 254));
-        jLabel24.setText("14");
+        jLabel24.setText("iv a");
         getContentPane().add(jLabel24, new org.netbeans.lib.awtextra.AbsoluteConstraints(740, 90, 24, -1));
 
         jLabel25.setBackground(new java.awt.Color(254, 254, 254));
         jLabel25.setFont(new java.awt.Font("Elephant", 0, 15)); // NOI18N
         jLabel25.setForeground(new java.awt.Color(254, 254, 254));
-        jLabel25.setText("13");
+        jLabel25.setText("iii a");
         getContentPane().add(jLabel25, new org.netbeans.lib.awtextra.AbsoluteConstraints(690, 90, 24, -1));
 
         jLabel26.setBackground(new java.awt.Color(254, 254, 254));
         jLabel26.setFont(new java.awt.Font("Elephant", 0, 15)); // NOI18N
         jLabel26.setForeground(new java.awt.Color(254, 254, 254));
-        jLabel26.setText("17");
+        jLabel26.setText("vii a");
         getContentPane().add(jLabel26, new org.netbeans.lib.awtextra.AbsoluteConstraints(890, 90, 24, -1));
 
         jLabel8.setBackground(new java.awt.Color(33, 33, 33));
@@ -3097,6 +3111,14 @@ public final class ventana extends javax.swing.JFrame implements ActionListener{
         }
     }//GEN-LAST:event_jToggleButton1ActionPerformed
 
+    private void jButton1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton1ActionPerformed
+        // TODO add your handling code here:
+        inicio window = new inicio();
+        window.setTitle("Tabla-Periodica-De-Los-Elementos");
+        window.setVisible(true);
+        dispose();
+    }//GEN-LAST:event_jButton1ActionPerformed
+
     // Variables declaration - do not modify//GEN-BEGIN:variables
     private javax.swing.JButton Berilio;
     private javax.swing.JButton Cesio;
@@ -3226,6 +3248,7 @@ public final class ventana extends javax.swing.JFrame implements ActionListener{
     private javax.swing.JButton elemento98;
     private javax.swing.JButton elemento99;
     private javax.swing.JLabel halogenos;
+    private javax.swing.JButton jButton1;
     private javax.swing.JLabel jLabel1;
     private javax.swing.JLabel jLabel10;
     private javax.swing.JLabel jLabel11;
