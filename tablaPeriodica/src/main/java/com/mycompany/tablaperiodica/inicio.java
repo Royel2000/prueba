@@ -29,33 +29,34 @@ public class inicio extends javax.swing.JFrame {
         getContentPane().setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
 
         jButton1.setBackground(new java.awt.Color(26, 32, 38));
-        jButton1.setFont(new java.awt.Font("Lakehurst Gothic Medium", 0, 15)); // NOI18N
-        jButton1.setForeground(new java.awt.Color(254, 254, 254));
+        jButton1.setFont(new java.awt.Font("Elephant", 0, 36)); // NOI18N
+        jButton1.setForeground(new java.awt.Color(248, 129, 101));
         jButton1.setText("ir  a la Tabla Periodica");
         jButton1.setBorderPainted(false);
+        jButton1.setContentAreaFilled(false);
+        jButton1.setFocusPainted(false);
         jButton1.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 jButton1ActionPerformed(evt);
             }
         });
-        getContentPane().add(jButton1, new org.netbeans.lib.awtextra.AbsoluteConstraints(510, 310, -1, -1));
+        getContentPane().add(jButton1, new org.netbeans.lib.awtextra.AbsoluteConstraints(750, 80, -1, -1));
 
         jButton3.setBackground(new java.awt.Color(26, 32, 38));
-        jButton3.setFont(new java.awt.Font("Lakehurst Gothic Medium", 0, 15)); // NOI18N
-        jButton3.setForeground(new java.awt.Color(254, 254, 254));
+        jButton3.setFont(new java.awt.Font("Elephant", 0, 24)); // NOI18N
+        jButton3.setForeground(new java.awt.Color(248, 129, 101));
         jButton3.setText("salir");
         jButton3.setBorderPainted(false);
-        jButton3.setOpaque(true);
+        jButton3.setContentAreaFilled(false);
         jButton3.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 jButton3ActionPerformed(evt);
             }
         });
-        getContentPane().add(jButton3, new org.netbeans.lib.awtextra.AbsoluteConstraints(820, 310, -1, -1));
+        getContentPane().add(jButton3, new org.netbeans.lib.awtextra.AbsoluteConstraints(850, 210, -1, -1));
 
-        jLabel1.setIcon(new javax.swing.ImageIcon("/home/trabajo/Imágenes/Fondos de escritorio/wallpapersden.com_cool-red-mountains-4k_4000x2250.jpg")); // NOI18N
-        jLabel1.setText("jLabel1");
-        getContentPane().add(jLabel1, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, 1410, 730));
+        jLabel1.setIcon(new javax.swing.ImageIcon("/home/trabajo/Imágenes/inicio.png")); // NOI18N
+        getContentPane().add(jLabel1, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, 1370, 730));
 
         pack();
     }// </editor-fold>//GEN-END:initComponents
