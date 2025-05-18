@@ -1,13 +1,6 @@
 package com.mycompany.tablaperiodica;
 
 import java.awt.event.ActionEvent;
-import javax.swing.ButtonGroup;
-import javax.swing.JOptionPane;
-import java.awt.event.FocusEvent;
-import java.awt.event.FocusListener;
-import javax.swing.Icon;
-import javax.swing.ImageIcon;
-import javax.swing.JLabel;
 import java.awt.event.ActionListener;
 import javax.swing.JButton;
 public final class ventana extends javax.swing.JFrame implements ActionListener{
@@ -160,7 +153,7 @@ public final class ventana extends javax.swing.JFrame implements ActionListener{
         String name=o.getName();
         //e.getActionCommand().equals("New button1")
         switch (name) {
-            case "H"->this.enlace("Hidrogeno","1","1.0","gaseoso","","/home/trabajo/Imágenes/1c1feffed7dc8a90a755642552b53990.gif");
+            case "H"->this.enlace("Hidrogeno","1","1.0","gaseoso","","/home/royel/Imágenes/1c1feffed7dc8a90a755642552b53990.gif");
             case "li"->this.enlace("Litio","3","6,9","liquido","","/home/trabajo/Imágenes/db9q9gh-4b04d3dc-c688-4b6f-9a8a-9deaec633439.gif");
             case "na"->this.enlace("Sodio","11","23,0","liquido","","/home/trabajo/Imágenes/db9q9gh-4b04d3dc-c688-4b6f-9a8a-9deaec633439.gif");
             case "k"->this.enlace("Potasio","19","39,1","liquido","","/home/trabajo/Imágenes/db9q9gh-4b04d3dc-c688-4b6f-9a8a-9deaec633439.gif");
@@ -588,11 +581,10 @@ public final class ventana extends javax.swing.JFrame implements ActionListener{
         jLabel26 = new javax.swing.JLabel();
         jLabel8 = new javax.swing.JLabel();
 
-        Gnobles.setIcon(new javax.swing.ImageIcon("/home/trabajo/Imágenes/tablaperiodica/dif2.png")); // NOI18N
-
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
+        setTitle("Tabla periodica");
         setAutoRequestFocus(false);
-        setBackground(new java.awt.Color(23, 23, 23));
+        setBackground(new java.awt.Color(0, 51, 153));
         setBounds(new java.awt.Rectangle(0, 0, 0, 0));
         setCursor(new java.awt.Cursor(java.awt.Cursor.DEFAULT_CURSOR));
         setIconImages(null);
@@ -739,48 +731,23 @@ public final class ventana extends javax.swing.JFrame implements ActionListener{
             }
         });
         getContentPane().add(jLabel36, new org.netbeans.lib.awtextra.AbsoluteConstraints(440, 30, 180, 20));
-
-        nometales.setIcon(new javax.swing.ImageIcon("/home/trabajo/Imágenes/tablaperiodica/dif6.png")); // NOI18N
         getContentPane().add(nometales, new org.netbeans.lib.awtextra.AbsoluteConstraints(710, 90, -1, 180));
-
-        Otrmetales.setIcon(new javax.swing.ImageIcon("/home/trabajo/Imágenes/tablaperiodica/dif5.png")); // NOI18N
         getContentPane().add(Otrmetales, new org.netbeans.lib.awtextra.AbsoluteConstraints(670, 150, -1, 260));
-
-        metaloides.setIcon(new javax.swing.ImageIcon("/home/trabajo/Imágenes/tablaperiodica/dif8.png")); // NOI18N
         getContentPane().add(metaloides, new org.netbeans.lib.awtextra.AbsoluteConstraints(660, 100, -1, 260));
-
-        nometales2.setIcon(new javax.swing.ImageIcon("/home/trabajo/Imágenes/tablaperiodica/dif.png")); // NOI18N
         getContentPane().add(nometales2, new org.netbeans.lib.awtextra.AbsoluteConstraints(70, 60, 50, 50));
-
-        alcalinoterreos.setIcon(new javax.swing.ImageIcon("/home/trabajo/Imágenes/tablaperiodica/dif.png")); // NOI18N
         getContentPane().add(alcalinoterreos, new org.netbeans.lib.awtextra.AbsoluteConstraints(70, 110, 50, 300));
-
-        halogenos.setIcon(new javax.swing.ImageIcon("/home/trabajo/Imágenes/tablaperiodica/dif2.png")); // NOI18N
         getContentPane().add(halogenos, new org.netbeans.lib.awtextra.AbsoluteConstraints(870, 110, 50, 300));
-
-        actinidos.setIcon(new javax.swing.ImageIcon("/home/trabajo/Imágenes/tablaperiodica/dif3.png")); // NOI18N
         getContentPane().add(actinidos, new org.netbeans.lib.awtextra.AbsoluteConstraints(160, 480, 740, 50));
-
-        Mtransicion.setIcon(new javax.swing.ImageIcon("/home/trabajo/Imágenes/tablaperiodica/dif4.png")); // NOI18N
         getContentPane().add(Mtransicion, new org.netbeans.lib.awtextra.AbsoluteConstraints(170, 210, 510, 200));
-
-        lantanidos.setIcon(new javax.swing.ImageIcon("/home/trabajo/Imágenes/tablaperiodica/dif3.png")); // NOI18N
         getContentPane().add(lantanidos, new org.netbeans.lib.awtextra.AbsoluteConstraints(160, 420, 730, 60));
-
-        Malcalinos.setIcon(new javax.swing.ImageIcon("/home/trabajo/Imágenes/tablaperiodica/dif.png")); // NOI18N
         getContentPane().add(Malcalinos, new org.netbeans.lib.awtextra.AbsoluteConstraints(120, 110, 50, 300));
-
-        GNobles.setIcon(new javax.swing.ImageIcon("/home/trabajo/Imágenes/tablaperiodica/dif2.png")); // NOI18N
         getContentPane().add(GNobles, new org.netbeans.lib.awtextra.AbsoluteConstraints(920, 60, 50, 350));
-
-        jLabel37.setIcon(new javax.swing.ImageIcon("/home/trabajo/Imágenes/tablaperiodica/spdf.png")); // NOI18N
         getContentPane().add(jLabel37, new org.netbeans.lib.awtextra.AbsoluteConstraints(70, 50, -1, -1));
-
-        Ele.setIcon(new javax.swing.ImageIcon("/home/trabajo/Imágenes/tablaperiodica/electronegatividad.png")); // NOI18N
         getContentPane().add(Ele, new org.netbeans.lib.awtextra.AbsoluteConstraints(80, 50, 900, 490));
 
         H.setBackground(new java.awt.Color(74, 74, 74));
-        H.setIcon(new javax.swing.ImageIcon("/home/trabajo/Imágenes/tablaperiodica/1.png")); // NOI18N
+        H.setIcon(new javax.swing.ImageIcon("/home/royel/Imágenes/Elementos/H.png")); // NOI18N
+        H.setToolTipText("");
         H.setBorder(null);
         H.setBorderPainted(false);
         H.setName("H"); // NOI18N
@@ -797,7 +764,8 @@ public final class ventana extends javax.swing.JFrame implements ActionListener{
         getContentPane().add(H, new org.netbeans.lib.awtextra.AbsoluteConstraints(70, 60, 50, 48));
 
         Litio.setBackground(new java.awt.Color(74, 74, 74));
-        Litio.setIcon(new javax.swing.ImageIcon("/home/trabajo/Imágenes/tablaperiodica/Li.png")); // NOI18N
+        Litio.setIcon(new javax.swing.ImageIcon("/home/royel/Imágenes/Elementos/Li.png")); // NOI18N
+        Litio.setAlignmentX(0.5F);
         Litio.setBorderPainted(false);
         Litio.setName("li"); // NOI18N
         Litio.addActionListener(new java.awt.event.ActionListener() {
@@ -808,7 +776,7 @@ public final class ventana extends javax.swing.JFrame implements ActionListener{
         getContentPane().add(Litio, new org.netbeans.lib.awtextra.AbsoluteConstraints(70, 110, 48, 47));
 
         Francio.setBackground(new java.awt.Color(74, 74, 74));
-        Francio.setIcon(new javax.swing.ImageIcon("/home/trabajo/Imágenes/tablaperiodica/Fr.png")); // NOI18N
+        Francio.setText("Fr");
         Francio.setBorder(null);
         Francio.setBorderPainted(false);
         Francio.setName("fr"); // NOI18N
@@ -888,7 +856,7 @@ public final class ventana extends javax.swing.JFrame implements ActionListener{
         getContentPane().add(jToggleButton1, new org.netbeans.lib.awtextra.AbsoluteConstraints(1220, 140, -1, -1));
 
         Sodio.setBackground(new java.awt.Color(74, 74, 74));
-        Sodio.setIcon(new javax.swing.ImageIcon("/home/trabajo/Imágenes/tablaperiodica/Na.png")); // NOI18N
+        Sodio.setIcon(new javax.swing.ImageIcon("/home/royel/Imágenes/Elementos/Na.png")); // NOI18N
         Sodio.setBorderPainted(false);
         Sodio.setName("na"); // NOI18N
         Sodio.addActionListener(new java.awt.event.ActionListener() {
@@ -899,7 +867,7 @@ public final class ventana extends javax.swing.JFrame implements ActionListener{
         getContentPane().add(Sodio, new org.netbeans.lib.awtextra.AbsoluteConstraints(70, 160, 48, 45));
 
         Potasio.setBackground(new java.awt.Color(74, 74, 74));
-        Potasio.setIcon(new javax.swing.ImageIcon("/home/trabajo/Imágenes/tablaperiodica/K.png")); // NOI18N
+        Potasio.setIcon(new javax.swing.ImageIcon("/home/royel/Imágenes/Elementos/K.png")); // NOI18N
         Potasio.setBorder(null);
         Potasio.setBorderPainted(false);
         Potasio.setName("k"); // NOI18N
@@ -911,7 +879,7 @@ public final class ventana extends javax.swing.JFrame implements ActionListener{
         getContentPane().add(Potasio, new org.netbeans.lib.awtextra.AbsoluteConstraints(70, 210, 48, 45));
 
         Rubidio.setBackground(new java.awt.Color(74, 74, 74));
-        Rubidio.setIcon(new javax.swing.ImageIcon("/home/trabajo/Imágenes/tablaperiodica/Rb.png")); // NOI18N
+        Rubidio.setIcon(new javax.swing.ImageIcon("/home/royel/Imágenes/Elementos/Rb.png")); // NOI18N
         Rubidio.setBorder(null);
         Rubidio.setBorderPainted(false);
         Rubidio.setName("rb"); // NOI18N
@@ -923,7 +891,7 @@ public final class ventana extends javax.swing.JFrame implements ActionListener{
         getContentPane().add(Rubidio, new org.netbeans.lib.awtextra.AbsoluteConstraints(70, 260, 48, 45));
 
         Cesio.setBackground(new java.awt.Color(74, 74, 74));
-        Cesio.setIcon(new javax.swing.ImageIcon("/home/trabajo/Imágenes/tablaperiodica/Cs.png")); // NOI18N
+        Cesio.setText("Cs");
         Cesio.setBorder(null);
         Cesio.setBorderPainted(false);
         Cesio.setName("cs"); // NOI18N
@@ -935,7 +903,7 @@ public final class ventana extends javax.swing.JFrame implements ActionListener{
         getContentPane().add(Cesio, new org.netbeans.lib.awtextra.AbsoluteConstraints(70, 310, 48, 45));
 
         Berilio.setBackground(new java.awt.Color(74, 74, 74));
-        Berilio.setIcon(new javax.swing.ImageIcon("/home/trabajo/Imágenes/tablaperiodica/be.png")); // NOI18N
+        Berilio.setText("Be");
         Berilio.setBorderPainted(false);
         Berilio.setName("be"); // NOI18N
         Berilio.addActionListener(new java.awt.event.ActionListener() {
@@ -946,7 +914,7 @@ public final class ventana extends javax.swing.JFrame implements ActionListener{
         getContentPane().add(Berilio, new org.netbeans.lib.awtextra.AbsoluteConstraints(120, 110, 48, 47));
 
         elemento.setBackground(new java.awt.Color(74, 74, 74));
-        elemento.setIcon(new javax.swing.ImageIcon("/home/trabajo/Imágenes/tablaperiodica/Ra.png")); // NOI18N
+        elemento.setText("Ra");
         elemento.setBorder(null);
         elemento.setBorderPainted(false);
         elemento.setName("ra"); // NOI18N
@@ -958,7 +926,7 @@ public final class ventana extends javax.swing.JFrame implements ActionListener{
         getContentPane().add(elemento, new org.netbeans.lib.awtextra.AbsoluteConstraints(120, 360, 48, 45));
 
         elemento1.setBackground(new java.awt.Color(74, 74, 74));
-        elemento1.setIcon(new javax.swing.ImageIcon("/home/trabajo/Imágenes/tablaperiodica/mg.png")); // NOI18N
+        elemento1.setText("Mg");
         elemento1.setBorderPainted(false);
         elemento1.setName("mg"); // NOI18N
         elemento1.addActionListener(new java.awt.event.ActionListener() {
@@ -969,7 +937,7 @@ public final class ventana extends javax.swing.JFrame implements ActionListener{
         getContentPane().add(elemento1, new org.netbeans.lib.awtextra.AbsoluteConstraints(120, 160, 48, 45));
 
         elemento2.setBackground(new java.awt.Color(74, 74, 74));
-        elemento2.setIcon(new javax.swing.ImageIcon("/home/trabajo/Imágenes/tablaperiodica/Ca.png")); // NOI18N
+        elemento2.setText("Ca");
         elemento2.setBorder(null);
         elemento2.setBorderPainted(false);
         elemento2.setName("ca"); // NOI18N
@@ -981,7 +949,7 @@ public final class ventana extends javax.swing.JFrame implements ActionListener{
         getContentPane().add(elemento2, new org.netbeans.lib.awtextra.AbsoluteConstraints(120, 210, 48, 45));
 
         elemento3.setBackground(new java.awt.Color(74, 74, 74));
-        elemento3.setIcon(new javax.swing.ImageIcon("/home/trabajo/Imágenes/tablaperiodica/Sr.png")); // NOI18N
+        elemento3.setText("Sr");
         elemento3.setBorder(null);
         elemento3.setBorderPainted(false);
         elemento3.setName("sr"); // NOI18N
@@ -993,7 +961,7 @@ public final class ventana extends javax.swing.JFrame implements ActionListener{
         getContentPane().add(elemento3, new org.netbeans.lib.awtextra.AbsoluteConstraints(120, 260, 48, 45));
 
         elemento4.setBackground(new java.awt.Color(74, 74, 74));
-        elemento4.setIcon(new javax.swing.ImageIcon("/home/trabajo/Imágenes/tablaperiodica/Ba.png")); // NOI18N
+        elemento4.setText("Br");
         elemento4.setBorder(null);
         elemento4.setBorderPainted(false);
         elemento4.setName("ba"); // NOI18N
@@ -1005,7 +973,6 @@ public final class ventana extends javax.swing.JFrame implements ActionListener{
         getContentPane().add(elemento4, new org.netbeans.lib.awtextra.AbsoluteConstraints(120, 310, 48, 45));
 
         elemento5.setBackground(new java.awt.Color(74, 74, 74));
-        elemento5.setIcon(new javax.swing.ImageIcon("/home/trabajo/Imágenes/tablaperiodica/Lr.png")); // NOI18N
         elemento5.setBorder(null);
         elemento5.setBorderPainted(false);
         elemento5.setName("lr"); // NOI18N
@@ -1017,7 +984,7 @@ public final class ventana extends javax.swing.JFrame implements ActionListener{
         getContentPane().add(elemento5, new org.netbeans.lib.awtextra.AbsoluteConstraints(170, 360, 48, 45));
 
         elemento6.setBackground(new java.awt.Color(74, 74, 74));
-        elemento6.setIcon(new javax.swing.ImageIcon("/home/trabajo/Imágenes/tablaperiodica/Sc.png")); // NOI18N
+        elemento6.setText("Sc");
         elemento6.setBorder(null);
         elemento6.setBorderPainted(false);
         elemento6.setName("sc"); // NOI18N
@@ -1029,7 +996,7 @@ public final class ventana extends javax.swing.JFrame implements ActionListener{
         getContentPane().add(elemento6, new org.netbeans.lib.awtextra.AbsoluteConstraints(170, 210, 48, 45));
 
         elemento7.setBackground(new java.awt.Color(74, 74, 74));
-        elemento7.setIcon(new javax.swing.ImageIcon("/home/trabajo/Imágenes/tablaperiodica/Y.png")); // NOI18N
+        elemento7.setText("Y");
         elemento7.setBorder(null);
         elemento7.setBorderPainted(false);
         elemento7.setName("y"); // NOI18N
@@ -1041,7 +1008,6 @@ public final class ventana extends javax.swing.JFrame implements ActionListener{
         getContentPane().add(elemento7, new org.netbeans.lib.awtextra.AbsoluteConstraints(170, 260, 48, 45));
 
         elemento8.setBackground(new java.awt.Color(74, 74, 74));
-        elemento8.setIcon(new javax.swing.ImageIcon("/home/trabajo/Imágenes/tablaperiodica/lu.png")); // NOI18N
         elemento8.setBorder(null);
         elemento8.setBorderPainted(false);
         elemento8.setName("lu"); // NOI18N
@@ -1053,7 +1019,6 @@ public final class ventana extends javax.swing.JFrame implements ActionListener{
         getContentPane().add(elemento8, new org.netbeans.lib.awtextra.AbsoluteConstraints(170, 310, 48, 45));
 
         elemento9.setBackground(new java.awt.Color(74, 74, 74));
-        elemento9.setIcon(new javax.swing.ImageIcon("/home/trabajo/Imágenes/tablaperiodica/Rf.png")); // NOI18N
         elemento9.setBorderPainted(false);
         elemento9.setName("rf"); // NOI18N
         elemento9.addActionListener(new java.awt.event.ActionListener() {
@@ -1064,7 +1029,6 @@ public final class ventana extends javax.swing.JFrame implements ActionListener{
         getContentPane().add(elemento9, new org.netbeans.lib.awtextra.AbsoluteConstraints(220, 360, 48, 45));
 
         elemento10.setBackground(new java.awt.Color(74, 74, 74));
-        elemento10.setIcon(new javax.swing.ImageIcon("/home/trabajo/Imágenes/tablaperiodica/Ti.png")); // NOI18N
         elemento10.setBorderPainted(false);
         elemento10.setName("ti"); // NOI18N
         elemento10.addActionListener(new java.awt.event.ActionListener() {
@@ -1075,7 +1039,6 @@ public final class ventana extends javax.swing.JFrame implements ActionListener{
         getContentPane().add(elemento10, new org.netbeans.lib.awtextra.AbsoluteConstraints(220, 210, 48, 45));
 
         elemento11.setBackground(new java.awt.Color(74, 74, 74));
-        elemento11.setIcon(new javax.swing.ImageIcon("/home/trabajo/Imágenes/tablaperiodica/Zr.png")); // NOI18N
         elemento11.setBorderPainted(false);
         elemento11.setName("zr"); // NOI18N
         elemento11.addActionListener(new java.awt.event.ActionListener() {
@@ -1086,7 +1049,6 @@ public final class ventana extends javax.swing.JFrame implements ActionListener{
         getContentPane().add(elemento11, new org.netbeans.lib.awtextra.AbsoluteConstraints(220, 260, 48, 45));
 
         elemento12.setBackground(new java.awt.Color(74, 74, 74));
-        elemento12.setIcon(new javax.swing.ImageIcon("/home/trabajo/Imágenes/tablaperiodica/Hf.png")); // NOI18N
         elemento12.setBorderPainted(false);
         elemento12.setName("hf"); // NOI18N
         elemento12.addActionListener(new java.awt.event.ActionListener() {
@@ -1097,7 +1059,6 @@ public final class ventana extends javax.swing.JFrame implements ActionListener{
         getContentPane().add(elemento12, new org.netbeans.lib.awtextra.AbsoluteConstraints(220, 310, 48, 45));
 
         elemento13.setBackground(new java.awt.Color(74, 74, 74));
-        elemento13.setIcon(new javax.swing.ImageIcon("/home/trabajo/Imágenes/tablaperiodica/Db.png")); // NOI18N
         elemento13.setBorderPainted(false);
         elemento13.setName("db"); // NOI18N
         elemento13.addActionListener(new java.awt.event.ActionListener() {
@@ -1108,7 +1069,6 @@ public final class ventana extends javax.swing.JFrame implements ActionListener{
         getContentPane().add(elemento13, new org.netbeans.lib.awtextra.AbsoluteConstraints(270, 360, 48, 45));
 
         elemento14.setBackground(new java.awt.Color(74, 74, 74));
-        elemento14.setIcon(new javax.swing.ImageIcon("/home/trabajo/Imágenes/tablaperiodica/V.png")); // NOI18N
         elemento14.setBorderPainted(false);
         elemento14.setName("v"); // NOI18N
         elemento14.addActionListener(new java.awt.event.ActionListener() {
@@ -1119,7 +1079,6 @@ public final class ventana extends javax.swing.JFrame implements ActionListener{
         getContentPane().add(elemento14, new org.netbeans.lib.awtextra.AbsoluteConstraints(270, 210, 48, 45));
 
         elemento15.setBackground(new java.awt.Color(74, 74, 74));
-        elemento15.setIcon(new javax.swing.ImageIcon("/home/trabajo/Imágenes/tablaperiodica/Nb.png")); // NOI18N
         elemento15.setBorderPainted(false);
         elemento15.setName("nb"); // NOI18N
         elemento15.addActionListener(new java.awt.event.ActionListener() {
@@ -1130,7 +1089,6 @@ public final class ventana extends javax.swing.JFrame implements ActionListener{
         getContentPane().add(elemento15, new org.netbeans.lib.awtextra.AbsoluteConstraints(270, 260, 48, 45));
 
         elemento16.setBackground(new java.awt.Color(74, 74, 74));
-        elemento16.setIcon(new javax.swing.ImageIcon("/home/trabajo/Imágenes/tablaperiodica/Ta.png")); // NOI18N
         elemento16.setBorderPainted(false);
         elemento16.setName("ta"); // NOI18N
         elemento16.addActionListener(new java.awt.event.ActionListener() {
@@ -1141,7 +1099,6 @@ public final class ventana extends javax.swing.JFrame implements ActionListener{
         getContentPane().add(elemento16, new org.netbeans.lib.awtextra.AbsoluteConstraints(270, 310, 48, 45));
 
         elemento17.setBackground(new java.awt.Color(74, 74, 74));
-        elemento17.setIcon(new javax.swing.ImageIcon("/home/trabajo/Imágenes/tablaperiodica/Sg.png")); // NOI18N
         elemento17.setBorderPainted(false);
         elemento17.setName("sg"); // NOI18N
         elemento17.addActionListener(new java.awt.event.ActionListener() {
@@ -1152,7 +1109,6 @@ public final class ventana extends javax.swing.JFrame implements ActionListener{
         getContentPane().add(elemento17, new org.netbeans.lib.awtextra.AbsoluteConstraints(320, 360, 48, 45));
 
         elemento18.setBackground(new java.awt.Color(74, 74, 74));
-        elemento18.setIcon(new javax.swing.ImageIcon("/home/trabajo/Imágenes/tablaperiodica/Cr.png")); // NOI18N
         elemento18.setBorderPainted(false);
         elemento18.setName("cr"); // NOI18N
         elemento18.addActionListener(new java.awt.event.ActionListener() {
@@ -1163,7 +1119,6 @@ public final class ventana extends javax.swing.JFrame implements ActionListener{
         getContentPane().add(elemento18, new org.netbeans.lib.awtextra.AbsoluteConstraints(320, 210, 48, 45));
 
         elemento19.setBackground(new java.awt.Color(74, 74, 74));
-        elemento19.setIcon(new javax.swing.ImageIcon("/home/trabajo/Imágenes/tablaperiodica/Mo.png")); // NOI18N
         elemento19.setBorderPainted(false);
         elemento19.setName("mo"); // NOI18N
         elemento19.addActionListener(new java.awt.event.ActionListener() {
@@ -1174,7 +1129,6 @@ public final class ventana extends javax.swing.JFrame implements ActionListener{
         getContentPane().add(elemento19, new org.netbeans.lib.awtextra.AbsoluteConstraints(320, 260, 48, 45));
 
         elemento20.setBackground(new java.awt.Color(74, 74, 74));
-        elemento20.setIcon(new javax.swing.ImageIcon("/home/trabajo/Imágenes/tablaperiodica/W.png")); // NOI18N
         elemento20.setBorderPainted(false);
         elemento20.setName("w"); // NOI18N
         elemento20.addActionListener(new java.awt.event.ActionListener() {
@@ -1185,7 +1139,6 @@ public final class ventana extends javax.swing.JFrame implements ActionListener{
         getContentPane().add(elemento20, new org.netbeans.lib.awtextra.AbsoluteConstraints(320, 310, 48, 45));
 
         elemento21.setBackground(new java.awt.Color(74, 74, 74));
-        elemento21.setIcon(new javax.swing.ImageIcon("/home/trabajo/Imágenes/tablaperiodica/Bh.png")); // NOI18N
         elemento21.setBorderPainted(false);
         elemento21.setName("bh"); // NOI18N
         elemento21.addActionListener(new java.awt.event.ActionListener() {
@@ -1196,7 +1149,6 @@ public final class ventana extends javax.swing.JFrame implements ActionListener{
         getContentPane().add(elemento21, new org.netbeans.lib.awtextra.AbsoluteConstraints(370, 360, 48, 45));
 
         elemento22.setBackground(new java.awt.Color(74, 74, 74));
-        elemento22.setIcon(new javax.swing.ImageIcon("/home/trabajo/Imágenes/tablaperiodica/Mn.png")); // NOI18N
         elemento22.setBorderPainted(false);
         elemento22.setName("mn"); // NOI18N
         elemento22.addActionListener(new java.awt.event.ActionListener() {
@@ -1207,7 +1159,6 @@ public final class ventana extends javax.swing.JFrame implements ActionListener{
         getContentPane().add(elemento22, new org.netbeans.lib.awtextra.AbsoluteConstraints(370, 210, 48, 45));
 
         elemento23.setBackground(new java.awt.Color(74, 74, 74));
-        elemento23.setIcon(new javax.swing.ImageIcon("/home/trabajo/Imágenes/tablaperiodica/Tc.png")); // NOI18N
         elemento23.setBorderPainted(false);
         elemento23.setName("tc"); // NOI18N
         elemento23.addActionListener(new java.awt.event.ActionListener() {
@@ -1218,7 +1169,6 @@ public final class ventana extends javax.swing.JFrame implements ActionListener{
         getContentPane().add(elemento23, new org.netbeans.lib.awtextra.AbsoluteConstraints(370, 260, 48, 45));
 
         elemento24.setBackground(new java.awt.Color(74, 74, 74));
-        elemento24.setIcon(new javax.swing.ImageIcon("/home/trabajo/Imágenes/tablaperiodica/Re.png")); // NOI18N
         elemento24.setBorderPainted(false);
         elemento24.setName("re"); // NOI18N
         elemento24.addActionListener(new java.awt.event.ActionListener() {
@@ -1229,7 +1179,6 @@ public final class ventana extends javax.swing.JFrame implements ActionListener{
         getContentPane().add(elemento24, new org.netbeans.lib.awtextra.AbsoluteConstraints(370, 310, 48, 45));
 
         elemento25.setBackground(new java.awt.Color(74, 74, 74));
-        elemento25.setIcon(new javax.swing.ImageIcon("/home/trabajo/Imágenes/tablaperiodica/Hs.png")); // NOI18N
         elemento25.setBorderPainted(false);
         elemento25.setName("hs"); // NOI18N
         elemento25.addActionListener(new java.awt.event.ActionListener() {
@@ -1240,7 +1189,6 @@ public final class ventana extends javax.swing.JFrame implements ActionListener{
         getContentPane().add(elemento25, new org.netbeans.lib.awtextra.AbsoluteConstraints(420, 360, 48, 45));
 
         elemento26.setBackground(new java.awt.Color(74, 74, 74));
-        elemento26.setIcon(new javax.swing.ImageIcon("/home/trabajo/Imágenes/tablaperiodica/Fe.png")); // NOI18N
         elemento26.setBorderPainted(false);
         elemento26.setName("fe"); // NOI18N
         elemento26.addActionListener(new java.awt.event.ActionListener() {
@@ -1251,7 +1199,6 @@ public final class ventana extends javax.swing.JFrame implements ActionListener{
         getContentPane().add(elemento26, new org.netbeans.lib.awtextra.AbsoluteConstraints(420, 210, 48, 45));
 
         elemento27.setBackground(new java.awt.Color(74, 74, 74));
-        elemento27.setIcon(new javax.swing.ImageIcon("/home/trabajo/Imágenes/tablaperiodica/Ru.png")); // NOI18N
         elemento27.setBorderPainted(false);
         elemento27.setName("ru"); // NOI18N
         elemento27.addActionListener(new java.awt.event.ActionListener() {
@@ -1262,7 +1209,6 @@ public final class ventana extends javax.swing.JFrame implements ActionListener{
         getContentPane().add(elemento27, new org.netbeans.lib.awtextra.AbsoluteConstraints(420, 260, 48, 45));
 
         elemento28.setBackground(new java.awt.Color(74, 74, 74));
-        elemento28.setIcon(new javax.swing.ImageIcon("/home/trabajo/Imágenes/tablaperiodica/Os.png")); // NOI18N
         elemento28.setBorderPainted(false);
         elemento28.setName("os"); // NOI18N
         elemento28.addActionListener(new java.awt.event.ActionListener() {
@@ -1273,7 +1219,6 @@ public final class ventana extends javax.swing.JFrame implements ActionListener{
         getContentPane().add(elemento28, new org.netbeans.lib.awtextra.AbsoluteConstraints(420, 310, 48, 45));
 
         elemento29.setBackground(new java.awt.Color(74, 74, 74));
-        elemento29.setIcon(new javax.swing.ImageIcon("/home/trabajo/Imágenes/tablaperiodica/Mt.png")); // NOI18N
         elemento29.setBorderPainted(false);
         elemento29.setName("mt"); // NOI18N
         elemento29.addActionListener(new java.awt.event.ActionListener() {
@@ -1284,7 +1229,6 @@ public final class ventana extends javax.swing.JFrame implements ActionListener{
         getContentPane().add(elemento29, new org.netbeans.lib.awtextra.AbsoluteConstraints(470, 360, 48, 45));
 
         elemento30.setBackground(new java.awt.Color(74, 74, 74));
-        elemento30.setIcon(new javax.swing.ImageIcon("/home/trabajo/Imágenes/tablaperiodica/Co.png")); // NOI18N
         elemento30.setBorderPainted(false);
         elemento30.setName("co"); // NOI18N
         elemento30.addActionListener(new java.awt.event.ActionListener() {
@@ -1295,7 +1239,6 @@ public final class ventana extends javax.swing.JFrame implements ActionListener{
         getContentPane().add(elemento30, new org.netbeans.lib.awtextra.AbsoluteConstraints(470, 210, 48, 45));
 
         elemento31.setBackground(new java.awt.Color(74, 74, 74));
-        elemento31.setIcon(new javax.swing.ImageIcon("/home/trabajo/Imágenes/tablaperiodica/Rh.png")); // NOI18N
         elemento31.setBorderPainted(false);
         elemento31.setName("rh"); // NOI18N
         elemento31.addActionListener(new java.awt.event.ActionListener() {
@@ -1306,7 +1249,6 @@ public final class ventana extends javax.swing.JFrame implements ActionListener{
         getContentPane().add(elemento31, new org.netbeans.lib.awtextra.AbsoluteConstraints(470, 260, 48, 45));
 
         elemento32.setBackground(new java.awt.Color(74, 74, 74));
-        elemento32.setIcon(new javax.swing.ImageIcon("/home/trabajo/Imágenes/tablaperiodica/Ir.png")); // NOI18N
         elemento32.setBorderPainted(false);
         elemento32.setName("ir"); // NOI18N
         elemento32.addActionListener(new java.awt.event.ActionListener() {
@@ -1317,7 +1259,6 @@ public final class ventana extends javax.swing.JFrame implements ActionListener{
         getContentPane().add(elemento32, new org.netbeans.lib.awtextra.AbsoluteConstraints(470, 310, 48, 45));
 
         elemento33.setBackground(new java.awt.Color(74, 74, 74));
-        elemento33.setIcon(new javax.swing.ImageIcon("/home/trabajo/Imágenes/tablaperiodica/Ds.png")); // NOI18N
         elemento33.setBorderPainted(false);
         elemento33.setName("ds"); // NOI18N
         elemento33.addActionListener(new java.awt.event.ActionListener() {
@@ -1328,7 +1269,6 @@ public final class ventana extends javax.swing.JFrame implements ActionListener{
         getContentPane().add(elemento33, new org.netbeans.lib.awtextra.AbsoluteConstraints(520, 360, 48, 45));
 
         elemento34.setBackground(new java.awt.Color(74, 74, 74));
-        elemento34.setIcon(new javax.swing.ImageIcon("/home/trabajo/Imágenes/tablaperiodica/Ni.png")); // NOI18N
         elemento34.setBorderPainted(false);
         elemento34.setName("ni"); // NOI18N
         elemento34.addActionListener(new java.awt.event.ActionListener() {
@@ -1339,7 +1279,6 @@ public final class ventana extends javax.swing.JFrame implements ActionListener{
         getContentPane().add(elemento34, new org.netbeans.lib.awtextra.AbsoluteConstraints(520, 210, 48, 45));
 
         elemento35.setBackground(new java.awt.Color(74, 74, 74));
-        elemento35.setIcon(new javax.swing.ImageIcon("/home/trabajo/Imágenes/tablaperiodica/Pd.png")); // NOI18N
         elemento35.setBorderPainted(false);
         elemento35.setName("pd"); // NOI18N
         elemento35.addActionListener(new java.awt.event.ActionListener() {
@@ -1350,7 +1289,6 @@ public final class ventana extends javax.swing.JFrame implements ActionListener{
         getContentPane().add(elemento35, new org.netbeans.lib.awtextra.AbsoluteConstraints(520, 260, 48, 45));
 
         elemento36.setBackground(new java.awt.Color(74, 74, 74));
-        elemento36.setIcon(new javax.swing.ImageIcon("/home/trabajo/Imágenes/tablaperiodica/Pt.png")); // NOI18N
         elemento36.setBorderPainted(false);
         elemento36.setName("pt"); // NOI18N
         elemento36.addActionListener(new java.awt.event.ActionListener() {
@@ -1361,7 +1299,6 @@ public final class ventana extends javax.swing.JFrame implements ActionListener{
         getContentPane().add(elemento36, new org.netbeans.lib.awtextra.AbsoluteConstraints(520, 310, 48, 45));
 
         elemento37.setBackground(new java.awt.Color(74, 74, 74));
-        elemento37.setIcon(new javax.swing.ImageIcon("/home/trabajo/Imágenes/tablaperiodica/Rg.png")); // NOI18N
         elemento37.setBorderPainted(false);
         elemento37.setName("rg"); // NOI18N
         elemento37.addActionListener(new java.awt.event.ActionListener() {
@@ -1372,7 +1309,6 @@ public final class ventana extends javax.swing.JFrame implements ActionListener{
         getContentPane().add(elemento37, new org.netbeans.lib.awtextra.AbsoluteConstraints(570, 360, 48, 45));
 
         elemento38.setBackground(new java.awt.Color(74, 74, 74));
-        elemento38.setIcon(new javax.swing.ImageIcon("/home/trabajo/Imágenes/tablaperiodica/Cu.png")); // NOI18N
         elemento38.setBorderPainted(false);
         elemento38.setName("cu"); // NOI18N
         elemento38.addActionListener(new java.awt.event.ActionListener() {
@@ -1383,7 +1319,6 @@ public final class ventana extends javax.swing.JFrame implements ActionListener{
         getContentPane().add(elemento38, new org.netbeans.lib.awtextra.AbsoluteConstraints(570, 210, 48, 45));
 
         elemento39.setBackground(new java.awt.Color(74, 74, 74));
-        elemento39.setIcon(new javax.swing.ImageIcon("/home/trabajo/Imágenes/tablaperiodica/Ag.png")); // NOI18N
         elemento39.setBorderPainted(false);
         elemento39.setName("ag"); // NOI18N
         elemento39.addActionListener(new java.awt.event.ActionListener() {
@@ -1394,7 +1329,6 @@ public final class ventana extends javax.swing.JFrame implements ActionListener{
         getContentPane().add(elemento39, new org.netbeans.lib.awtextra.AbsoluteConstraints(570, 260, 48, 45));
 
         elemento40.setBackground(new java.awt.Color(74, 74, 74));
-        elemento40.setIcon(new javax.swing.ImageIcon("/home/trabajo/Imágenes/tablaperiodica/Au.png")); // NOI18N
         elemento40.setBorderPainted(false);
         elemento40.setName("au"); // NOI18N
         elemento40.addActionListener(new java.awt.event.ActionListener() {
@@ -1405,7 +1339,6 @@ public final class ventana extends javax.swing.JFrame implements ActionListener{
         getContentPane().add(elemento40, new org.netbeans.lib.awtextra.AbsoluteConstraints(570, 310, 48, 45));
 
         elemento41.setBackground(new java.awt.Color(74, 74, 74));
-        elemento41.setIcon(new javax.swing.ImageIcon("/home/trabajo/Imágenes/tablaperiodica/Cn.png")); // NOI18N
         elemento41.setBorderPainted(false);
         elemento41.setName("cn"); // NOI18N
         elemento41.addActionListener(new java.awt.event.ActionListener() {
@@ -1416,7 +1349,6 @@ public final class ventana extends javax.swing.JFrame implements ActionListener{
         getContentPane().add(elemento41, new org.netbeans.lib.awtextra.AbsoluteConstraints(620, 360, 48, 45));
 
         elemento42.setBackground(new java.awt.Color(74, 74, 74));
-        elemento42.setIcon(new javax.swing.ImageIcon("/home/trabajo/Imágenes/tablaperiodica/Zn.png")); // NOI18N
         elemento42.setBorderPainted(false);
         elemento42.setName("zn"); // NOI18N
         elemento42.addActionListener(new java.awt.event.ActionListener() {
@@ -1427,7 +1359,6 @@ public final class ventana extends javax.swing.JFrame implements ActionListener{
         getContentPane().add(elemento42, new org.netbeans.lib.awtextra.AbsoluteConstraints(620, 210, 48, 45));
 
         elemento43.setBackground(new java.awt.Color(74, 74, 74));
-        elemento43.setIcon(new javax.swing.ImageIcon("/home/trabajo/Imágenes/tablaperiodica/Cd.png")); // NOI18N
         elemento43.setBorderPainted(false);
         elemento43.setName("cd"); // NOI18N
         elemento43.addActionListener(new java.awt.event.ActionListener() {
@@ -1438,7 +1369,6 @@ public final class ventana extends javax.swing.JFrame implements ActionListener{
         getContentPane().add(elemento43, new org.netbeans.lib.awtextra.AbsoluteConstraints(620, 260, 48, 45));
 
         elemento44.setBackground(new java.awt.Color(74, 74, 74));
-        elemento44.setIcon(new javax.swing.ImageIcon("/home/trabajo/Imágenes/tablaperiodica/Hg.png")); // NOI18N
         elemento44.setBorderPainted(false);
         elemento44.setName("hg"); // NOI18N
         elemento44.addActionListener(new java.awt.event.ActionListener() {
@@ -1449,7 +1379,6 @@ public final class ventana extends javax.swing.JFrame implements ActionListener{
         getContentPane().add(elemento44, new org.netbeans.lib.awtextra.AbsoluteConstraints(620, 310, 48, 45));
 
         elemento45.setBackground(new java.awt.Color(74, 74, 74));
-        elemento45.setIcon(new javax.swing.ImageIcon("/home/trabajo/Imágenes/tablaperiodica/Nh.png")); // NOI18N
         elemento45.setBorderPainted(false);
         elemento45.setName("nh"); // NOI18N
         elemento45.addActionListener(new java.awt.event.ActionListener() {
@@ -1460,7 +1389,6 @@ public final class ventana extends javax.swing.JFrame implements ActionListener{
         getContentPane().add(elemento45, new org.netbeans.lib.awtextra.AbsoluteConstraints(670, 360, 48, 45));
 
         elemento46.setBackground(new java.awt.Color(74, 74, 74));
-        elemento46.setIcon(new javax.swing.ImageIcon("/home/trabajo/Imágenes/tablaperiodica/Tl.png")); // NOI18N
         elemento46.setBorderPainted(false);
         elemento46.setName("tl"); // NOI18N
         elemento46.addActionListener(new java.awt.event.ActionListener() {
@@ -1471,7 +1399,6 @@ public final class ventana extends javax.swing.JFrame implements ActionListener{
         getContentPane().add(elemento46, new org.netbeans.lib.awtextra.AbsoluteConstraints(670, 310, 48, 45));
 
         elemento47.setBackground(new java.awt.Color(74, 74, 74));
-        elemento47.setIcon(new javax.swing.ImageIcon("/home/trabajo/Imágenes/tablaperiodica/In.png")); // NOI18N
         elemento47.setBorderPainted(false);
         elemento47.setName("in"); // NOI18N
         elemento47.addActionListener(new java.awt.event.ActionListener() {
@@ -1482,7 +1409,6 @@ public final class ventana extends javax.swing.JFrame implements ActionListener{
         getContentPane().add(elemento47, new org.netbeans.lib.awtextra.AbsoluteConstraints(670, 260, 48, 45));
 
         elemento48.setBackground(new java.awt.Color(74, 74, 74));
-        elemento48.setIcon(new javax.swing.ImageIcon("/home/trabajo/Imágenes/tablaperiodica/Ga.png")); // NOI18N
         elemento48.setBorderPainted(false);
         elemento48.setName("ga"); // NOI18N
         elemento48.addActionListener(new java.awt.event.ActionListener() {
@@ -1493,7 +1419,6 @@ public final class ventana extends javax.swing.JFrame implements ActionListener{
         getContentPane().add(elemento48, new org.netbeans.lib.awtextra.AbsoluteConstraints(670, 210, 48, 45));
 
         elemento49.setBackground(new java.awt.Color(74, 74, 74));
-        elemento49.setIcon(new javax.swing.ImageIcon("/home/trabajo/Imágenes/tablaperiodica/B.png")); // NOI18N
         elemento49.setBorderPainted(false);
         elemento49.setName("b"); // NOI18N
         elemento49.addActionListener(new java.awt.event.ActionListener() {
@@ -1504,7 +1429,6 @@ public final class ventana extends javax.swing.JFrame implements ActionListener{
         getContentPane().add(elemento49, new org.netbeans.lib.awtextra.AbsoluteConstraints(670, 110, 48, 45));
 
         elemento50.setBackground(new java.awt.Color(74, 74, 74));
-        elemento50.setIcon(new javax.swing.ImageIcon("/home/trabajo/Imágenes/tablaperiodica/Ai.png")); // NOI18N
         elemento50.setBorderPainted(false);
         elemento50.setName("al"); // NOI18N
         elemento50.addActionListener(new java.awt.event.ActionListener() {
@@ -1515,7 +1439,6 @@ public final class ventana extends javax.swing.JFrame implements ActionListener{
         getContentPane().add(elemento50, new org.netbeans.lib.awtextra.AbsoluteConstraints(670, 160, 48, 45));
 
         elemento51.setBackground(new java.awt.Color(74, 74, 74));
-        elemento51.setIcon(new javax.swing.ImageIcon("/home/trabajo/Imágenes/tablaperiodica/Fl.png")); // NOI18N
         elemento51.setBorderPainted(false);
         elemento51.setName("fl"); // NOI18N
         elemento51.addActionListener(new java.awt.event.ActionListener() {
@@ -1526,7 +1449,6 @@ public final class ventana extends javax.swing.JFrame implements ActionListener{
         getContentPane().add(elemento51, new org.netbeans.lib.awtextra.AbsoluteConstraints(720, 360, 48, 45));
 
         elemento52.setBackground(new java.awt.Color(74, 74, 74));
-        elemento52.setIcon(new javax.swing.ImageIcon("/home/trabajo/Imágenes/tablaperiodica/Pb.png")); // NOI18N
         elemento52.setBorderPainted(false);
         elemento52.setName("pb"); // NOI18N
         elemento52.addActionListener(new java.awt.event.ActionListener() {
@@ -1537,7 +1459,6 @@ public final class ventana extends javax.swing.JFrame implements ActionListener{
         getContentPane().add(elemento52, new org.netbeans.lib.awtextra.AbsoluteConstraints(720, 310, 48, 45));
 
         elemento53.setBackground(new java.awt.Color(74, 74, 74));
-        elemento53.setIcon(new javax.swing.ImageIcon("/home/trabajo/Imágenes/tablaperiodica/Sn.png")); // NOI18N
         elemento53.setBorderPainted(false);
         elemento53.setName("sn"); // NOI18N
         elemento53.addActionListener(new java.awt.event.ActionListener() {
@@ -1548,7 +1469,6 @@ public final class ventana extends javax.swing.JFrame implements ActionListener{
         getContentPane().add(elemento53, new org.netbeans.lib.awtextra.AbsoluteConstraints(720, 260, 48, 45));
 
         elemento54.setBackground(new java.awt.Color(74, 74, 74));
-        elemento54.setIcon(new javax.swing.ImageIcon("/home/trabajo/Imágenes/tablaperiodica/Ge.png")); // NOI18N
         elemento54.setBorderPainted(false);
         elemento54.setName("ge"); // NOI18N
         elemento54.addActionListener(new java.awt.event.ActionListener() {
@@ -1559,7 +1479,6 @@ public final class ventana extends javax.swing.JFrame implements ActionListener{
         getContentPane().add(elemento54, new org.netbeans.lib.awtextra.AbsoluteConstraints(720, 210, 48, 45));
 
         elemento55.setBackground(new java.awt.Color(74, 74, 74));
-        elemento55.setIcon(new javax.swing.ImageIcon("/home/trabajo/Imágenes/tablaperiodica/C.png")); // NOI18N
         elemento55.setBorderPainted(false);
         elemento55.setName("c"); // NOI18N
         elemento55.addActionListener(new java.awt.event.ActionListener() {
@@ -1570,7 +1489,6 @@ public final class ventana extends javax.swing.JFrame implements ActionListener{
         getContentPane().add(elemento55, new org.netbeans.lib.awtextra.AbsoluteConstraints(720, 110, 48, 45));
 
         elemento56.setBackground(new java.awt.Color(74, 74, 74));
-        elemento56.setIcon(new javax.swing.ImageIcon("/home/trabajo/Imágenes/tablaperiodica/Si.png")); // NOI18N
         elemento56.setBorderPainted(false);
         elemento56.setName("si"); // NOI18N
         elemento56.addActionListener(new java.awt.event.ActionListener() {
@@ -1581,7 +1499,6 @@ public final class ventana extends javax.swing.JFrame implements ActionListener{
         getContentPane().add(elemento56, new org.netbeans.lib.awtextra.AbsoluteConstraints(720, 160, 48, 45));
 
         elemento57.setBackground(new java.awt.Color(74, 74, 74));
-        elemento57.setIcon(new javax.swing.ImageIcon("/home/trabajo/Imágenes/tablaperiodica/Mc.png")); // NOI18N
         elemento57.setBorderPainted(false);
         elemento57.setName("mc"); // NOI18N
         elemento57.addActionListener(new java.awt.event.ActionListener() {
@@ -1592,7 +1509,6 @@ public final class ventana extends javax.swing.JFrame implements ActionListener{
         getContentPane().add(elemento57, new org.netbeans.lib.awtextra.AbsoluteConstraints(770, 360, 48, 45));
 
         elemento58.setBackground(new java.awt.Color(74, 74, 74));
-        elemento58.setIcon(new javax.swing.ImageIcon("/home/trabajo/Imágenes/tablaperiodica/Bi.png")); // NOI18N
         elemento58.setBorderPainted(false);
         elemento58.setName("bi"); // NOI18N
         elemento58.addActionListener(new java.awt.event.ActionListener() {
@@ -1603,7 +1519,6 @@ public final class ventana extends javax.swing.JFrame implements ActionListener{
         getContentPane().add(elemento58, new org.netbeans.lib.awtextra.AbsoluteConstraints(770, 310, 48, 45));
 
         elemento59.setBackground(new java.awt.Color(74, 74, 74));
-        elemento59.setIcon(new javax.swing.ImageIcon("/home/trabajo/Imágenes/tablaperiodica/Sb.png")); // NOI18N
         elemento59.setBorderPainted(false);
         elemento59.setName("sb"); // NOI18N
         elemento59.addActionListener(new java.awt.event.ActionListener() {
@@ -1614,7 +1529,6 @@ public final class ventana extends javax.swing.JFrame implements ActionListener{
         getContentPane().add(elemento59, new org.netbeans.lib.awtextra.AbsoluteConstraints(770, 260, 48, 45));
 
         elemento60.setBackground(new java.awt.Color(74, 74, 74));
-        elemento60.setIcon(new javax.swing.ImageIcon("/home/trabajo/Imágenes/tablaperiodica/As.png")); // NOI18N
         elemento60.setBorderPainted(false);
         elemento60.setName("as"); // NOI18N
         elemento60.addActionListener(new java.awt.event.ActionListener() {
@@ -1625,7 +1539,6 @@ public final class ventana extends javax.swing.JFrame implements ActionListener{
         getContentPane().add(elemento60, new org.netbeans.lib.awtextra.AbsoluteConstraints(770, 210, 48, 45));
 
         elemento61.setBackground(new java.awt.Color(74, 74, 74));
-        elemento61.setIcon(new javax.swing.ImageIcon("/home/trabajo/Imágenes/tablaperiodica/n.png")); // NOI18N
         elemento61.setBorderPainted(false);
         elemento61.setName("n"); // NOI18N
         elemento61.addActionListener(new java.awt.event.ActionListener() {
@@ -1636,7 +1549,6 @@ public final class ventana extends javax.swing.JFrame implements ActionListener{
         getContentPane().add(elemento61, new org.netbeans.lib.awtextra.AbsoluteConstraints(770, 110, 48, 45));
 
         elemento62.setBackground(new java.awt.Color(74, 74, 74));
-        elemento62.setIcon(new javax.swing.ImageIcon("/home/trabajo/Imágenes/tablaperiodica/P.png")); // NOI18N
         elemento62.setBorderPainted(false);
         elemento62.setName("p"); // NOI18N
         elemento62.addActionListener(new java.awt.event.ActionListener() {
@@ -1647,7 +1559,6 @@ public final class ventana extends javax.swing.JFrame implements ActionListener{
         getContentPane().add(elemento62, new org.netbeans.lib.awtextra.AbsoluteConstraints(770, 160, 48, 45));
 
         elemento63.setBackground(new java.awt.Color(74, 74, 74));
-        elemento63.setIcon(new javax.swing.ImageIcon("/home/trabajo/Imágenes/tablaperiodica/Lv.png")); // NOI18N
         elemento63.setBorderPainted(false);
         elemento63.setName("lv"); // NOI18N
         elemento63.addActionListener(new java.awt.event.ActionListener() {
@@ -1658,7 +1569,6 @@ public final class ventana extends javax.swing.JFrame implements ActionListener{
         getContentPane().add(elemento63, new org.netbeans.lib.awtextra.AbsoluteConstraints(820, 360, 48, 45));
 
         elemento64.setBackground(new java.awt.Color(74, 74, 74));
-        elemento64.setIcon(new javax.swing.ImageIcon("/home/trabajo/Imágenes/tablaperiodica/Po.png")); // NOI18N
         elemento64.setBorderPainted(false);
         elemento64.setName("po"); // NOI18N
         elemento64.addActionListener(new java.awt.event.ActionListener() {
@@ -1669,7 +1579,6 @@ public final class ventana extends javax.swing.JFrame implements ActionListener{
         getContentPane().add(elemento64, new org.netbeans.lib.awtextra.AbsoluteConstraints(820, 310, 48, 45));
 
         elemento65.setBackground(new java.awt.Color(74, 74, 74));
-        elemento65.setIcon(new javax.swing.ImageIcon("/home/trabajo/Imágenes/tablaperiodica/Te.png")); // NOI18N
         elemento65.setBorderPainted(false);
         elemento65.setName("te"); // NOI18N
         elemento65.addActionListener(new java.awt.event.ActionListener() {
@@ -1680,7 +1589,6 @@ public final class ventana extends javax.swing.JFrame implements ActionListener{
         getContentPane().add(elemento65, new org.netbeans.lib.awtextra.AbsoluteConstraints(820, 260, 48, 45));
 
         elemento66.setBackground(new java.awt.Color(74, 74, 74));
-        elemento66.setIcon(new javax.swing.ImageIcon("/home/trabajo/Imágenes/tablaperiodica/Se.png")); // NOI18N
         elemento66.setBorderPainted(false);
         elemento66.setName("se"); // NOI18N
         elemento66.addActionListener(new java.awt.event.ActionListener() {
@@ -1691,7 +1599,6 @@ public final class ventana extends javax.swing.JFrame implements ActionListener{
         getContentPane().add(elemento66, new org.netbeans.lib.awtextra.AbsoluteConstraints(820, 210, 48, 45));
 
         elemento67.setBackground(new java.awt.Color(74, 74, 74));
-        elemento67.setIcon(new javax.swing.ImageIcon("/home/trabajo/Imágenes/tablaperiodica/O.png")); // NOI18N
         elemento67.setBorderPainted(false);
         elemento67.setName("o"); // NOI18N
         elemento67.addActionListener(new java.awt.event.ActionListener() {
@@ -1702,7 +1609,6 @@ public final class ventana extends javax.swing.JFrame implements ActionListener{
         getContentPane().add(elemento67, new org.netbeans.lib.awtextra.AbsoluteConstraints(820, 110, 48, 45));
 
         elemento68.setBackground(new java.awt.Color(74, 74, 74));
-        elemento68.setIcon(new javax.swing.ImageIcon("/home/trabajo/Imágenes/tablaperiodica/S.png")); // NOI18N
         elemento68.setBorderPainted(false);
         elemento68.setName("s"); // NOI18N
         elemento68.addActionListener(new java.awt.event.ActionListener() {
@@ -1713,7 +1619,6 @@ public final class ventana extends javax.swing.JFrame implements ActionListener{
         getContentPane().add(elemento68, new org.netbeans.lib.awtextra.AbsoluteConstraints(820, 160, 48, 45));
 
         elemento69.setBackground(new java.awt.Color(74, 74, 74));
-        elemento69.setIcon(new javax.swing.ImageIcon("/home/trabajo/Imágenes/tablaperiodica/Ts.png")); // NOI18N
         elemento69.setBorderPainted(false);
         elemento69.setName("ts"); // NOI18N
         elemento69.addActionListener(new java.awt.event.ActionListener() {
@@ -1724,7 +1629,6 @@ public final class ventana extends javax.swing.JFrame implements ActionListener{
         getContentPane().add(elemento69, new org.netbeans.lib.awtextra.AbsoluteConstraints(870, 360, 48, 45));
 
         elemento70.setBackground(new java.awt.Color(74, 74, 74));
-        elemento70.setIcon(new javax.swing.ImageIcon("/home/trabajo/Imágenes/tablaperiodica/At.png")); // NOI18N
         elemento70.setBorderPainted(false);
         elemento70.setName("at"); // NOI18N
         elemento70.addActionListener(new java.awt.event.ActionListener() {
@@ -1735,7 +1639,6 @@ public final class ventana extends javax.swing.JFrame implements ActionListener{
         getContentPane().add(elemento70, new org.netbeans.lib.awtextra.AbsoluteConstraints(870, 310, 48, 45));
 
         elemento71.setBackground(new java.awt.Color(74, 74, 74));
-        elemento71.setIcon(new javax.swing.ImageIcon("/home/trabajo/Imágenes/tablaperiodica/I.png")); // NOI18N
         elemento71.setBorderPainted(false);
         elemento71.setName("i"); // NOI18N
         elemento71.addActionListener(new java.awt.event.ActionListener() {
@@ -1746,7 +1649,6 @@ public final class ventana extends javax.swing.JFrame implements ActionListener{
         getContentPane().add(elemento71, new org.netbeans.lib.awtextra.AbsoluteConstraints(870, 260, 48, 45));
 
         elemento72.setBackground(new java.awt.Color(74, 74, 74));
-        elemento72.setIcon(new javax.swing.ImageIcon("/home/trabajo/Imágenes/tablaperiodica/Br.png")); // NOI18N
         elemento72.setBorderPainted(false);
         elemento72.setName("br"); // NOI18N
         elemento72.addActionListener(new java.awt.event.ActionListener() {
@@ -1757,7 +1659,6 @@ public final class ventana extends javax.swing.JFrame implements ActionListener{
         getContentPane().add(elemento72, new org.netbeans.lib.awtextra.AbsoluteConstraints(870, 210, 48, 45));
 
         elemento73.setBackground(new java.awt.Color(74, 74, 74));
-        elemento73.setIcon(new javax.swing.ImageIcon("/home/trabajo/Imágenes/tablaperiodica/F.png")); // NOI18N
         elemento73.setBorderPainted(false);
         elemento73.setName("f"); // NOI18N
         elemento73.addActionListener(new java.awt.event.ActionListener() {
@@ -1768,7 +1669,6 @@ public final class ventana extends javax.swing.JFrame implements ActionListener{
         getContentPane().add(elemento73, new org.netbeans.lib.awtextra.AbsoluteConstraints(870, 110, 48, 45));
 
         elemento74.setBackground(new java.awt.Color(74, 74, 74));
-        elemento74.setIcon(new javax.swing.ImageIcon("/home/trabajo/Imágenes/tablaperiodica/Cl.png")); // NOI18N
         elemento74.setBorderPainted(false);
         elemento74.setName("cl"); // NOI18N
         elemento74.addActionListener(new java.awt.event.ActionListener() {
@@ -1779,7 +1679,6 @@ public final class ventana extends javax.swing.JFrame implements ActionListener{
         getContentPane().add(elemento74, new org.netbeans.lib.awtextra.AbsoluteConstraints(870, 160, 48, 45));
 
         elemento75.setBackground(new java.awt.Color(74, 74, 74));
-        elemento75.setIcon(new javax.swing.ImageIcon("/home/trabajo/Imágenes/tablaperiodica/Og.png")); // NOI18N
         elemento75.setBorderPainted(false);
         elemento75.setName("og"); // NOI18N
         elemento75.addActionListener(new java.awt.event.ActionListener() {
@@ -1790,7 +1689,6 @@ public final class ventana extends javax.swing.JFrame implements ActionListener{
         getContentPane().add(elemento75, new org.netbeans.lib.awtextra.AbsoluteConstraints(920, 360, 48, 45));
 
         elemento76.setBackground(new java.awt.Color(74, 74, 74));
-        elemento76.setIcon(new javax.swing.ImageIcon("/home/trabajo/Imágenes/tablaperiodica/Rn.png")); // NOI18N
         elemento76.setBorderPainted(false);
         elemento76.setName("rn"); // NOI18N
         elemento76.addActionListener(new java.awt.event.ActionListener() {
@@ -1801,7 +1699,6 @@ public final class ventana extends javax.swing.JFrame implements ActionListener{
         getContentPane().add(elemento76, new org.netbeans.lib.awtextra.AbsoluteConstraints(920, 310, 48, 45));
 
         elemento77.setBackground(new java.awt.Color(74, 74, 74));
-        elemento77.setIcon(new javax.swing.ImageIcon("/home/trabajo/Imágenes/tablaperiodica/Xe.png")); // NOI18N
         elemento77.setBorderPainted(false);
         elemento77.setName("xe"); // NOI18N
         elemento77.addActionListener(new java.awt.event.ActionListener() {
@@ -1812,7 +1709,6 @@ public final class ventana extends javax.swing.JFrame implements ActionListener{
         getContentPane().add(elemento77, new org.netbeans.lib.awtextra.AbsoluteConstraints(920, 260, 48, 45));
 
         elemento78.setBackground(new java.awt.Color(74, 74, 74));
-        elemento78.setIcon(new javax.swing.ImageIcon("/home/trabajo/Imágenes/tablaperiodica/Kr.png")); // NOI18N
         elemento78.setBorderPainted(false);
         elemento78.setName("kr"); // NOI18N
         elemento78.addActionListener(new java.awt.event.ActionListener() {
@@ -1823,7 +1719,6 @@ public final class ventana extends javax.swing.JFrame implements ActionListener{
         getContentPane().add(elemento78, new org.netbeans.lib.awtextra.AbsoluteConstraints(920, 210, 48, 45));
 
         elemento79.setBackground(new java.awt.Color(74, 74, 74));
-        elemento79.setIcon(new javax.swing.ImageIcon("/home/trabajo/Imágenes/tablaperiodica/He.png")); // NOI18N
         elemento79.setBorderPainted(false);
         elemento79.setName("he"); // NOI18N
         elemento79.addActionListener(new java.awt.event.ActionListener() {
@@ -1834,7 +1729,6 @@ public final class ventana extends javax.swing.JFrame implements ActionListener{
         getContentPane().add(elemento79, new org.netbeans.lib.awtextra.AbsoluteConstraints(920, 60, 48, 45));
 
         elemento80.setBackground(new java.awt.Color(74, 74, 74));
-        elemento80.setIcon(new javax.swing.ImageIcon("/home/trabajo/Imágenes/tablaperiodica/Ar.png")); // NOI18N
         elemento80.setBorderPainted(false);
         elemento80.setName("ar"); // NOI18N
         elemento80.addActionListener(new java.awt.event.ActionListener() {
@@ -1845,7 +1739,6 @@ public final class ventana extends javax.swing.JFrame implements ActionListener{
         getContentPane().add(elemento80, new org.netbeans.lib.awtextra.AbsoluteConstraints(920, 160, 48, 45));
 
         elemento81.setBackground(new java.awt.Color(74, 74, 74));
-        elemento81.setIcon(new javax.swing.ImageIcon("/home/trabajo/Imágenes/tablaperiodica/Ne.png")); // NOI18N
         elemento81.setBorderPainted(false);
         elemento81.setName("ne"); // NOI18N
         elemento81.addActionListener(new java.awt.event.ActionListener() {
@@ -1856,7 +1749,6 @@ public final class ventana extends javax.swing.JFrame implements ActionListener{
         getContentPane().add(elemento81, new org.netbeans.lib.awtextra.AbsoluteConstraints(920, 110, 48, 45));
 
         elemento82.setBackground(new java.awt.Color(74, 74, 74));
-        elemento82.setIcon(new javax.swing.ImageIcon("/home/trabajo/Imágenes/tablaperiodica/la.png")); // NOI18N
         elemento82.setBorderPainted(false);
         elemento82.setName("la"); // NOI18N
         elemento82.addActionListener(new java.awt.event.ActionListener() {
@@ -1867,7 +1759,6 @@ public final class ventana extends javax.swing.JFrame implements ActionListener{
         getContentPane().add(elemento82, new org.netbeans.lib.awtextra.AbsoluteConstraints(170, 430, 48, 45));
 
         elemento83.setBackground(new java.awt.Color(74, 74, 74));
-        elemento83.setIcon(new javax.swing.ImageIcon("/home/trabajo/Imágenes/tablaperiodica/Yb.png")); // NOI18N
         elemento83.setBorderPainted(false);
         elemento83.setName("yb"); // NOI18N
         elemento83.addActionListener(new java.awt.event.ActionListener() {
@@ -1878,7 +1769,6 @@ public final class ventana extends javax.swing.JFrame implements ActionListener{
         getContentPane().add(elemento83, new org.netbeans.lib.awtextra.AbsoluteConstraints(820, 430, 48, 45));
 
         elemento84.setBackground(new java.awt.Color(74, 74, 74));
-        elemento84.setIcon(new javax.swing.ImageIcon("/home/trabajo/Imágenes/tablaperiodica/Tm.png")); // NOI18N
         elemento84.setBorderPainted(false);
         elemento84.setName("tm"); // NOI18N
         elemento84.addActionListener(new java.awt.event.ActionListener() {
@@ -1889,7 +1779,6 @@ public final class ventana extends javax.swing.JFrame implements ActionListener{
         getContentPane().add(elemento84, new org.netbeans.lib.awtextra.AbsoluteConstraints(770, 430, 48, 45));
 
         elemento85.setBackground(new java.awt.Color(74, 74, 74));
-        elemento85.setIcon(new javax.swing.ImageIcon("/home/trabajo/Imágenes/tablaperiodica/Er.png")); // NOI18N
         elemento85.setBorderPainted(false);
         elemento85.setName("er"); // NOI18N
         elemento85.addActionListener(new java.awt.event.ActionListener() {
@@ -1900,7 +1789,6 @@ public final class ventana extends javax.swing.JFrame implements ActionListener{
         getContentPane().add(elemento85, new org.netbeans.lib.awtextra.AbsoluteConstraints(720, 430, 48, 45));
 
         elemento86.setBackground(new java.awt.Color(74, 74, 74));
-        elemento86.setIcon(new javax.swing.ImageIcon("/home/trabajo/Imágenes/tablaperiodica/Ho.png")); // NOI18N
         elemento86.setBorderPainted(false);
         elemento86.setName("ho"); // NOI18N
         elemento86.addActionListener(new java.awt.event.ActionListener() {
@@ -1911,7 +1799,6 @@ public final class ventana extends javax.swing.JFrame implements ActionListener{
         getContentPane().add(elemento86, new org.netbeans.lib.awtextra.AbsoluteConstraints(670, 430, 48, 45));
 
         elemento87.setBackground(new java.awt.Color(74, 74, 74));
-        elemento87.setIcon(new javax.swing.ImageIcon("/home/trabajo/Imágenes/tablaperiodica/Dy.png")); // NOI18N
         elemento87.setBorderPainted(false);
         elemento87.setName("dy"); // NOI18N
         elemento87.addActionListener(new java.awt.event.ActionListener() {
@@ -1922,7 +1809,6 @@ public final class ventana extends javax.swing.JFrame implements ActionListener{
         getContentPane().add(elemento87, new org.netbeans.lib.awtextra.AbsoluteConstraints(620, 430, 48, 45));
 
         elemento88.setBackground(new java.awt.Color(74, 74, 74));
-        elemento88.setIcon(new javax.swing.ImageIcon("/home/trabajo/Imágenes/tablaperiodica/Tb.png")); // NOI18N
         elemento88.setBorderPainted(false);
         elemento88.setName("tb"); // NOI18N
         elemento88.addActionListener(new java.awt.event.ActionListener() {
@@ -1933,7 +1819,6 @@ public final class ventana extends javax.swing.JFrame implements ActionListener{
         getContentPane().add(elemento88, new org.netbeans.lib.awtextra.AbsoluteConstraints(570, 430, 48, 45));
 
         elemento89.setBackground(new java.awt.Color(74, 74, 74));
-        elemento89.setIcon(new javax.swing.ImageIcon("/home/trabajo/Imágenes/tablaperiodica/Gd.png")); // NOI18N
         elemento89.setBorderPainted(false);
         elemento89.setName("gd"); // NOI18N
         elemento89.addActionListener(new java.awt.event.ActionListener() {
@@ -1944,7 +1829,6 @@ public final class ventana extends javax.swing.JFrame implements ActionListener{
         getContentPane().add(elemento89, new org.netbeans.lib.awtextra.AbsoluteConstraints(520, 430, 48, 45));
 
         elemento90.setBackground(new java.awt.Color(74, 74, 74));
-        elemento90.setIcon(new javax.swing.ImageIcon("/home/trabajo/Imágenes/tablaperiodica/Eu.png")); // NOI18N
         elemento90.setBorderPainted(false);
         elemento90.setName("eu"); // NOI18N
         elemento90.addActionListener(new java.awt.event.ActionListener() {
@@ -1955,7 +1839,6 @@ public final class ventana extends javax.swing.JFrame implements ActionListener{
         getContentPane().add(elemento90, new org.netbeans.lib.awtextra.AbsoluteConstraints(470, 430, 48, 45));
 
         elemento91.setBackground(new java.awt.Color(74, 74, 74));
-        elemento91.setIcon(new javax.swing.ImageIcon("/home/trabajo/Imágenes/tablaperiodica/Sm.png")); // NOI18N
         elemento91.setBorderPainted(false);
         elemento91.setName("sm"); // NOI18N
         elemento91.addActionListener(new java.awt.event.ActionListener() {
@@ -1966,7 +1849,6 @@ public final class ventana extends javax.swing.JFrame implements ActionListener{
         getContentPane().add(elemento91, new org.netbeans.lib.awtextra.AbsoluteConstraints(420, 430, 48, 45));
 
         elemento92.setBackground(new java.awt.Color(74, 74, 74));
-        elemento92.setIcon(new javax.swing.ImageIcon("/home/trabajo/Imágenes/tablaperiodica/Pm.png")); // NOI18N
         elemento92.setBorderPainted(false);
         elemento92.setName("pm"); // NOI18N
         elemento92.addActionListener(new java.awt.event.ActionListener() {
@@ -1977,7 +1859,6 @@ public final class ventana extends javax.swing.JFrame implements ActionListener{
         getContentPane().add(elemento92, new org.netbeans.lib.awtextra.AbsoluteConstraints(370, 430, 48, 45));
 
         elemento93.setBackground(new java.awt.Color(74, 74, 74));
-        elemento93.setIcon(new javax.swing.ImageIcon("/home/trabajo/Imágenes/tablaperiodica/Nd.png")); // NOI18N
         elemento93.setBorderPainted(false);
         elemento93.setName("nd"); // NOI18N
         elemento93.addActionListener(new java.awt.event.ActionListener() {
@@ -1988,7 +1869,6 @@ public final class ventana extends javax.swing.JFrame implements ActionListener{
         getContentPane().add(elemento93, new org.netbeans.lib.awtextra.AbsoluteConstraints(320, 430, 48, 45));
 
         elemento94.setBackground(new java.awt.Color(74, 74, 74));
-        elemento94.setIcon(new javax.swing.ImageIcon("/home/trabajo/Imágenes/tablaperiodica/pr.png")); // NOI18N
         elemento94.setBorderPainted(false);
         elemento94.setName("pr"); // NOI18N
         elemento94.addActionListener(new java.awt.event.ActionListener() {
@@ -1999,7 +1879,6 @@ public final class ventana extends javax.swing.JFrame implements ActionListener{
         getContentPane().add(elemento94, new org.netbeans.lib.awtextra.AbsoluteConstraints(270, 430, 48, 45));
 
         elemento95.setBackground(new java.awt.Color(74, 74, 74));
-        elemento95.setIcon(new javax.swing.ImageIcon("/home/trabajo/Imágenes/tablaperiodica/Ce.png")); // NOI18N
         elemento95.setBorderPainted(false);
         elemento95.setName("ce"); // NOI18N
         elemento95.addActionListener(new java.awt.event.ActionListener() {
@@ -2010,7 +1889,6 @@ public final class ventana extends javax.swing.JFrame implements ActionListener{
         getContentPane().add(elemento95, new org.netbeans.lib.awtextra.AbsoluteConstraints(220, 430, 48, 45));
 
         elemento96.setBackground(new java.awt.Color(74, 74, 74));
-        elemento96.setIcon(new javax.swing.ImageIcon("/home/trabajo/Imágenes/tablaperiodica/Am.png")); // NOI18N
         elemento96.setBorderPainted(false);
         elemento96.setName("am"); // NOI18N
         elemento96.addActionListener(new java.awt.event.ActionListener() {
@@ -2021,7 +1899,6 @@ public final class ventana extends javax.swing.JFrame implements ActionListener{
         getContentPane().add(elemento96, new org.netbeans.lib.awtextra.AbsoluteConstraints(470, 480, 48, 45));
 
         elemento97.setBackground(new java.awt.Color(74, 74, 74));
-        elemento97.setIcon(new javax.swing.ImageIcon("/home/trabajo/Imágenes/tablaperiodica/Cf.png")); // NOI18N
         elemento97.setBorderPainted(false);
         elemento97.setName("cf"); // NOI18N
         elemento97.addActionListener(new java.awt.event.ActionListener() {
@@ -2032,7 +1909,6 @@ public final class ventana extends javax.swing.JFrame implements ActionListener{
         getContentPane().add(elemento97, new org.netbeans.lib.awtextra.AbsoluteConstraints(620, 480, 48, 45));
 
         elemento98.setBackground(new java.awt.Color(74, 74, 74));
-        elemento98.setIcon(new javax.swing.ImageIcon("/home/trabajo/Imágenes/tablaperiodica/Es.png")); // NOI18N
         elemento98.setBorderPainted(false);
         elemento98.setName("es"); // NOI18N
         elemento98.addActionListener(new java.awt.event.ActionListener() {
@@ -2043,7 +1919,6 @@ public final class ventana extends javax.swing.JFrame implements ActionListener{
         getContentPane().add(elemento98, new org.netbeans.lib.awtextra.AbsoluteConstraints(670, 480, 48, 45));
 
         elemento99.setBackground(new java.awt.Color(74, 74, 74));
-        elemento99.setIcon(new javax.swing.ImageIcon("/home/trabajo/Imágenes/tablaperiodica/Pa.png")); // NOI18N
         elemento99.setBorderPainted(false);
         elemento99.setName("pa"); // NOI18N
         elemento99.addActionListener(new java.awt.event.ActionListener() {
@@ -2054,7 +1929,6 @@ public final class ventana extends javax.swing.JFrame implements ActionListener{
         getContentPane().add(elemento99, new org.netbeans.lib.awtextra.AbsoluteConstraints(270, 480, 48, 45));
 
         elemento100.setBackground(new java.awt.Color(74, 74, 74));
-        elemento100.setIcon(new javax.swing.ImageIcon("/home/trabajo/Imágenes/tablaperiodica/Th.png")); // NOI18N
         elemento100.setBorderPainted(false);
         elemento100.setName("th"); // NOI18N
         elemento100.addActionListener(new java.awt.event.ActionListener() {
@@ -2065,7 +1939,6 @@ public final class ventana extends javax.swing.JFrame implements ActionListener{
         getContentPane().add(elemento100, new org.netbeans.lib.awtextra.AbsoluteConstraints(220, 480, 48, 45));
 
         elemento101.setBackground(new java.awt.Color(74, 74, 74));
-        elemento101.setIcon(new javax.swing.ImageIcon("/home/trabajo/Imágenes/tablaperiodica/Md.png")); // NOI18N
         elemento101.setBorderPainted(false);
         elemento101.setName("md"); // NOI18N
         elemento101.addActionListener(new java.awt.event.ActionListener() {
@@ -2076,7 +1949,6 @@ public final class ventana extends javax.swing.JFrame implements ActionListener{
         getContentPane().add(elemento101, new org.netbeans.lib.awtextra.AbsoluteConstraints(770, 480, 48, 45));
 
         elemento102.setBackground(new java.awt.Color(74, 74, 74));
-        elemento102.setIcon(new javax.swing.ImageIcon("/home/trabajo/Imágenes/tablaperiodica/Fm.png")); // NOI18N
         elemento102.setBorderPainted(false);
         elemento102.setName("fm"); // NOI18N
         elemento102.addActionListener(new java.awt.event.ActionListener() {
@@ -2087,7 +1959,6 @@ public final class ventana extends javax.swing.JFrame implements ActionListener{
         getContentPane().add(elemento102, new org.netbeans.lib.awtextra.AbsoluteConstraints(720, 480, 48, 45));
 
         elemento103.setBackground(new java.awt.Color(74, 74, 74));
-        elemento103.setIcon(new javax.swing.ImageIcon("/home/trabajo/Imágenes/tablaperiodica/Bk.png")); // NOI18N
         elemento103.setBorderPainted(false);
         elemento103.setName("bk"); // NOI18N
         elemento103.addActionListener(new java.awt.event.ActionListener() {
@@ -2098,7 +1969,6 @@ public final class ventana extends javax.swing.JFrame implements ActionListener{
         getContentPane().add(elemento103, new org.netbeans.lib.awtextra.AbsoluteConstraints(570, 480, 48, 45));
 
         elemento104.setBackground(new java.awt.Color(74, 74, 74));
-        elemento104.setIcon(new javax.swing.ImageIcon("/home/trabajo/Imágenes/tablaperiodica/Cm.png")); // NOI18N
         elemento104.setBorderPainted(false);
         elemento104.setName("cm"); // NOI18N
         elemento104.addActionListener(new java.awt.event.ActionListener() {
@@ -2109,7 +1979,6 @@ public final class ventana extends javax.swing.JFrame implements ActionListener{
         getContentPane().add(elemento104, new org.netbeans.lib.awtextra.AbsoluteConstraints(520, 480, 48, 45));
 
         elemento105.setBackground(new java.awt.Color(74, 74, 74));
-        elemento105.setIcon(new javax.swing.ImageIcon("/home/trabajo/Imágenes/tablaperiodica/U.png")); // NOI18N
         elemento105.setBorderPainted(false);
         elemento105.setName("u"); // NOI18N
         elemento105.addActionListener(new java.awt.event.ActionListener() {
@@ -2120,7 +1989,6 @@ public final class ventana extends javax.swing.JFrame implements ActionListener{
         getContentPane().add(elemento105, new org.netbeans.lib.awtextra.AbsoluteConstraints(320, 480, 48, 45));
 
         elemento106.setBackground(new java.awt.Color(74, 74, 74));
-        elemento106.setIcon(new javax.swing.ImageIcon("/home/trabajo/Imágenes/tablaperiodica/Pu.png")); // NOI18N
         elemento106.setBorderPainted(false);
         elemento106.setName("pu"); // NOI18N
         elemento106.addActionListener(new java.awt.event.ActionListener() {
@@ -2131,7 +1999,6 @@ public final class ventana extends javax.swing.JFrame implements ActionListener{
         getContentPane().add(elemento106, new org.netbeans.lib.awtextra.AbsoluteConstraints(420, 480, 48, 45));
 
         elemento107.setBackground(new java.awt.Color(74, 74, 74));
-        elemento107.setIcon(new javax.swing.ImageIcon("/home/trabajo/Imágenes/tablaperiodica/Ac.png")); // NOI18N
         elemento107.setBorderPainted(false);
         elemento107.setName("ac"); // NOI18N
         elemento107.addActionListener(new java.awt.event.ActionListener() {
@@ -2142,7 +2009,6 @@ public final class ventana extends javax.swing.JFrame implements ActionListener{
         getContentPane().add(elemento107, new org.netbeans.lib.awtextra.AbsoluteConstraints(170, 480, 48, 45));
 
         elemento108.setBackground(new java.awt.Color(74, 74, 74));
-        elemento108.setIcon(new javax.swing.ImageIcon("/home/trabajo/Imágenes/tablaperiodica/Np.png")); // NOI18N
         elemento108.setBorderPainted(false);
         elemento108.setName("np"); // NOI18N
         elemento108.addActionListener(new java.awt.event.ActionListener() {
@@ -2153,7 +2019,6 @@ public final class ventana extends javax.swing.JFrame implements ActionListener{
         getContentPane().add(elemento108, new org.netbeans.lib.awtextra.AbsoluteConstraints(370, 480, 48, 45));
 
         elemento109.setBackground(new java.awt.Color(74, 74, 74));
-        elemento109.setIcon(new javax.swing.ImageIcon("/home/trabajo/Imágenes/tablaperiodica/No.png")); // NOI18N
         elemento109.setBorderPainted(false);
         elemento109.setName("no"); // NOI18N
         elemento109.addActionListener(new java.awt.event.ActionListener() {
@@ -2284,10 +2149,9 @@ public final class ventana extends javax.swing.JFrame implements ActionListener{
 
         jLabel8.setBackground(new java.awt.Color(33, 33, 33));
         jLabel8.setForeground(new java.awt.Color(44, 44, 44));
-        jLabel8.setIcon(new javax.swing.ImageIcon("/home/trabajo/Imágenes/tablaperiodica/fondo.png")); // NOI18N
-        jLabel8.setBorder(null);
         jLabel8.setName("H"); // NOI18N
-        getContentPane().add(jLabel8, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, -4, 1370, -1));
+        jLabel8.setOpaque(true);
+        getContentPane().add(jLabel8, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, -4, 1370, 740));
 
         pack();
     }// </editor-fold>//GEN-END:initComponents
